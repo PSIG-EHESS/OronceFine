@@ -106,7 +106,7 @@ print 'publie la couche sur geoserver'
 
 # geoserver post parameters
 url = 'http://psig.huma-num.fr/geoserver/rest'
-cat = Catalog(url, username="TAIS", password="TAIS2019")
+cat = Catalog(url, username="T**S", password="T**S*01*")        #Attention password
 workspace = cat.get_workspace("TAIS")
 
 print 'url du workspace ' + str(workspace)
