@@ -47,7 +47,7 @@ base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_it
 base_url_ok = "http://psig.huma-num.fr/omeka-s/api/items"
 base_url_annot = "http://psig.huma-num.fr/omeka-s/api/annotations/"
 
-iter_base_url = base_url_collections
+iter_base_url = base_url
 
 #Graph
 G = nx.Graph()
