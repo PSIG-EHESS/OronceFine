@@ -1,0 +1,12 @@
+{
+  "nodes":[
+		{"name": "636042","group":1}, 
+		{"name": "636515","group":2}, 
+		{"name": "636046","group":3}
+	], 
+  "links":[
+	{"source": 0,"target": 1,"weight":1}, 
+	{"source": 1, "target": 2,"weight":1}, 
+	{"source": 2, "target": 0,"weight":1}
+	]
+}

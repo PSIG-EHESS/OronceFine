@@ -1,0 +1,39 @@
+{
+    "nodes": [
+        {
+            "group": "1", 
+            "id": 1, 
+            "name": "ITEM 1"
+        }, 
+        {
+            "group": "1", 
+            "id": 2, 
+            "name": "ITEM 2"
+        }, 
+        {
+            "group": "1", 
+            "id": 3, 
+            "name": "ITEM 3"
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "motivation": "highlight", 
+            "target": 1, 
+            "weigth": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "locate", 
+            "target": 2, 
+            "weigth": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "describe", 
+            "target": 2, 
+            "weigth": 1.0
+        }
+    ]
+}
