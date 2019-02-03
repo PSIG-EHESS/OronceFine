@@ -68,7 +68,7 @@ _http = httplib2.Http()
 
 nb_pages = 190
 nb_item_per_page = 1500
-nb_annot = 100
+nb_annot = 1283
 
 # URL Omeka-s API
 base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
@@ -78,6 +78,7 @@ base_url_ok = "http://psig.huma-num.fr/omeka-s/api/items"
 G = nx.Graph()
 
 dir = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\'
+dir_out = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\'
 
 for page in range(1):
 
@@ -107,7 +108,7 @@ for page in range(1):
                   f, indent=4, )
 
     # Pour écrire dans un fichier Shapefile
-    dir_out = dir + '..\\out\\'
+
 
     w_points = shapefile.Writer(dir_out + 'shape_all_geom_omeka_points' + '.shp')
     w_points.field('id', 'N')
@@ -135,6 +136,11 @@ for page in range(1):
     w_centroid.field('collection', 'C', size=255)
 
     i = 0
+    cpt_points = 0
+    cpt_lines = 0
+    cpt_poly = 0
+    cpt_bbox = 0
+    cpt_centroid = 0
     for item in range(0, nb_annot):
         print 'id = ' + str(i)
         #print 'keys top ' + str(x[item])
@@ -155,39 +161,81 @@ for page in range(1):
                 if 'rdf:value' in x[item]['oa:hasTarget'][0]['oa:hasSelector']:
 
                     #print '         rdf:value' + str(x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'])
-                    if 'type' in x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'][0] and x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'][0]['type'] == "geometry:geometry":
+                    if 'type' in x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'][0] and x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'][0]['type'] == "geometry:geography":
 
                         geom_wkt = x[item]['oa:hasTarget'][0]['oa:hasSelector']['rdf:value'][0]['@value']
-                        #print 'geometry found : ' + geom_wkt
+                        print 'geometry found : ' + geom_wkt
 
                         p = geometry.from_wkt(geom_wkt)
 
-                        #print p.__geo_interface__
+                        print p.__geo_interface__
 
                         if p.__geo_interface__['type'] == 'Point':
                             print "it's a point : " + str(p.__geo_interface__['coordinates'][0]) + ' ' + str(p.__geo_interface__['coordinates'][1])
                             w_points.point(p.__geo_interface__['coordinates'][0], p.__geo_interface__['coordinates'][1])
                             w_points.record(i, name, collection)
+                            cpt_points += 1
 
                         if p.__geo_interface__['type'] == 'LineString':
                             print "it's a line : " + str(p.__geo_interface__['coordinates'])
-                            w_lines.line(p.__geo_interface__['coordinates'])
+                            part_line = []
+                            line = []
+                            for point in p.__geo_interface__['coordinates']:
+                                print point
+                                point_tab = [point[0], point[1]]
+                                line.append(point_tab)
+                            print line
+                            part_line.append(line)
+                            w_lines.line(part_line)
                             w_lines.record(i, name, collection)
+                            cpt_lines += 1
 
                         if p.__geo_interface__['type'] == 'Polygon':
                             print "it's a polygon : " + str(p.__geo_interface__['coordinates'])
                             w_polygons.poly(p.__geo_interface__['coordinates'])
                             w_polygons.record(i, name, collection)
+                            cpt_poly += 1
 
-                        print 'bounding box'
-                        w_bbox.poly(p.__geo_interface__['bbox'])
-                        w_bbox.record(i, name, collection)
+                        print 'bounding box / centroid'
+                        pointx_centroid = 0
+                        pointy_centroid = 0
+
+                        if p.__geo_interface__['type'] != 'Point':
+                            minx = min(p.__geo_interface__['bbox'][0], p.__geo_interface__['bbox'][2])
+                            maxx = max(p.__geo_interface__['bbox'][0], p.__geo_interface__['bbox'][2])
+                            miny = min(p.__geo_interface__['bbox'][1], p.__geo_interface__['bbox'][3])
+                            maxy = max(p.__geo_interface__['bbox'][1], p.__geo_interface__['bbox'][3])
+
+                            point1 = [minx, miny]
+                            point2 = [minx, maxy]
+                            point3 = [maxx, maxy]
+                            point4 = [maxx, miny]
+
+                            pointx_centroid = mean([minx, maxx])
+                            pointy_centroid = mean([miny, maxy])
+
+                            poly = [point1, point2, point3, point4]
+                            print poly
+                            w_bbox.poly([[point1, point2, point3, point4, point1]])
+                            w_bbox.record(i, name, collection)
+                            cpt_bbox += 1
+
+                        else:
+
+                            pointx_centroid = p.__geo_interface__['coordinates'][0]
+                            pointy_centroid = p.__geo_interface__['coordinates'][1]
 
                         print 'centroid'
-                        minx, miny, maxx, maxy = p.bounds()
-                        w_centroid.point(mean([minx, maxx]), mean([miny, maxy]) )
+                        w_centroid.point(pointx_centroid, pointy_centroid )
                         w_centroid.record(i, name, collection)
+                        cpt_centroid += 1
 
+        print 'nb records ' + str(i)
+        print 'nb records points ' + str(cpt_points)
+        print 'nb records lines ' + str(cpt_lines)
+        print 'nb records polys ' + str(cpt_poly)
+        print 'nb records bbox ' + str(cpt_bbox)
+        print 'nb records centroid ' + str(cpt_centroid)
         i += 1
 
     w_points.close()
