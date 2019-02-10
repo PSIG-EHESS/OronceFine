@@ -62,6 +62,52 @@ def search_in_dict(dict_or_list, key_to_search, search_for_first_only=False):
 def mean(numbers):
     return float(sum(numbers)) / max(len(numbers), 1)
 
+def request_api(url):
+    print '____ querying ' + url
+
+    # Assemble the URL and query the web service
+    # r = requests.get(base_url)#, params=payload)
+    # prepared = r.prepare()
+    # print prepared
+
+    resp, content = _http.request(url, "GET")  # , body=data, headers=headers)
+
+    # print '--resp--'
+    # print resp
+    # print '--content--'
+    # print content
+
+    x_json = json.loads(content)
+
+    return x_json
+
+def getWKT_PRJ (epsg_code):
+    import urllib
+    wkt = urllib.urlopen("http://spatialreference.org/ref/epsg/{0}/prettywkt/".format(epsg_code))
+    remove_spaces = wkt.read().replace(" ","")
+    output = remove_spaces.replace("\n", "")
+    return output
+
+def create_shapefile(dir_out, name):
+    # Puis gérer la projection, qui n'est pas gérée par la lib pyshp
+    prj = open(dir_out + name + '.prj', "w")
+    epsg = getWKT_PRJ("4326")
+    prj.write(epsg)
+    prj.close()
+
+    w = shapefile.Writer(dir_out + name + '.shp')
+    w.field('id', 'N')
+    w.field('id_item', 'N')
+    w.field('name_item', 'C', size=255)
+    w.field('type_item', 'C', size=100)
+    w.field('collection', 'C', size=255)
+    w.field('url_item', 'C', size=255)
+    w.field('url_media', 'C', size=255)
+    w.field('url_media_jpg', 'C', size=255)
+    w.field('date', 'C')
+
+    return w
+
 #START HERE
 
 _http = httplib2.Http()
@@ -73,7 +119,7 @@ nb_annot = 1283
 # URL Omeka-s API
 base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
 #base_url = "http://psig.huma-num.fr/omeka-s/api/annotations/634695"
-base_url_ok = "http://psig.huma-num.fr/omeka-s/api/items"
+base_url_items = "http://psig.huma-num.fr/omeka-s/api/items/"
 
 G = nx.Graph()
 
@@ -86,21 +132,7 @@ for page in range(1):
 
     iter_base_url = base_url
 
-    print '____ querying ' + base_url
-
-    # Assemble the URL and query the web service
-    #r = requests.get(base_url)#, params=payload)
-    # prepared = r.prepare()
-    # print prepared
-
-    resp, content = _http.request(iter_base_url, "GET")#, body=data, headers=headers)
-
-    #print '--resp--'
-    #print resp
-    #print '--content--'
-    #print content
-
-    x = json.loads(content)
+    x = request_api(iter_base_url)
 
     filename = dir + '\\scripts\\out\\export_annotations_for_geometries.json'
     with open(filename, 'w') as f:
@@ -109,31 +141,57 @@ for page in range(1):
 
     # Pour écrire dans un fichier Shapefile
 
+    w_points = create_shapefile(dir_out, 'shape_all_geom_omeka_points')
+    w_lines = create_shapefile(dir_out, 'shape_all_geom_omeka_lines')
+    w_polygons = create_shapefile(dir_out, 'shape_all_geom_omeka_polygons')
+    w_bbox = create_shapefile(dir_out, 'shape_all_geom_omeka_bbox')
+    w_centroid = create_shapefile(dir_out, 'shape_all_geom_omeka_centroid')
 
-    w_points = shapefile.Writer(dir_out + 'shape_all_geom_omeka_points' + '.shp')
-    w_points.field('id', 'N')
-    w_points.field('name', 'C')
-    w_points.field('collection', 'C', size=255)
+    print w_polygons
 
-    w_lines = shapefile.Writer(dir_out + 'shape_all_geom_omeka_lines' + '.shp')
-    w_lines.field('id', 'N')
-    w_lines.field('name', 'C')
-    w_lines.field('collection', 'C', size=255)
-
-    w_polygons = shapefile.Writer(dir_out + 'shape_all_geom_omeka_polygons' + '.shp')
-    w_polygons.field('id', 'N')
-    w_polygons.field('name', 'C')
-    w_polygons.field('collection', 'C', size=255)
-
-    w_bbox = shapefile.Writer(dir_out + 'shape_all_geom_omeka_bbox' + '.shp')
-    w_bbox.field('id', 'N')
-    w_bbox.field('name', 'C')
-    w_bbox.field('collection', 'C', size=255)
-
-    w_centroid = shapefile.Writer(dir_out + 'shape_all_geom_omeka_centroid' + '.shp')
-    w_centroid.field('id', 'N')
-    w_centroid.field('name', 'C')
-    w_centroid.field('collection', 'C', size=255)
+    # w_lines = shapefile.Writer(dir_out + 'shape_all_geom_omeka_lines' + '.shp')
+    # w_lines.field('id', 'N')
+    # w_lines.field('id_item', 'N')
+    # w_lines.field('name_item', 'C', size=255)
+    # w_lines.field('type_item', 'C', size=100)
+    # w_lines.field('collection', 'C', size=255)
+    # w_lines.field('url_item', 'C', size=255)
+    # w_lines.field('url_media', 'C', size=255)
+    # w_lines.field('url_media_jpg', 'C', size=255)
+    # w_lines.field('date', 'C')
+    #
+    # w_polygons = shapefile.Writer(dir_out + 'shape_all_geom_omeka_polygons' + '.shp')
+    # w_polygons.field('id', 'N')
+    # w_polygons.field('id_item', 'N')
+    # w_polygons.field('name_item', 'C', size=255)
+    # w_polygons.field('type_item', 'C', size=100)
+    # w_polygons.field('collection', 'C', size=255)
+    # w_polygons.field('url_item', 'C', size=255)
+    # w_polygons.field('url_media', 'C', size=255)
+    # w_polygons.field('url_media_jpg', 'C', size=255)
+    # w_polygons.field('date', 'C')
+    #
+    # w_bbox = shapefile.Writer(dir_out + 'shape_all_geom_omeka_bbox' + '.shp')
+    # w_bbox.field('id', 'N')
+    # w_bbox.field('id_item', 'N')
+    # w_bbox.field('name_item', 'C', size=255)
+    # w_bbox.field('type_item', 'C', size=100)
+    # w_bbox.field('collection', 'C', size=255)
+    # w_bbox.field('url_item', 'C', size=255)
+    # w_bbox.field('url_media', 'C', size=255)
+    # w_bbox.field('url_media_jpg', 'C', size=255)
+    # w_bbox.field('date', 'C')
+    #
+    # w_centroid = shapefile.Writer(dir_out + 'shape_all_geom_omeka_centroid' + '.shp')
+    # w_centroid.field('id', 'N')
+    # w_centroid.field('id_item', 'N')
+    # w_centroid.field('name_item', 'C', size=255)
+    # w_centroid.field('type_item', 'C', size=100)
+    # w_centroid.field('collection', 'C', size=255)
+    # w_centroid.field('url_item', 'C', size=255)
+    # w_centroid.field('url_media', 'C', size=255)
+    # w_centroid.field('url_media_jpg', 'C', size=255)
+    # w_centroid.field('date', 'C')
 
     i = 0
     cpt_points = 0
@@ -145,17 +203,44 @@ for page in range(1):
         print 'id = ' + str(i)
         #print 'keys top ' + str(x[item])
         print 'annotation #' + str(x[item]['o:id'])
-        name = ''
-        collection = ''
+        name_item = ''
+        id_item = 0
+        collection_item = ''
+        type_item = ''
+        url_item = ''
+        url_media = ''
+        url_media_jpg = ''
+        date = '1-2000'
 
         if 'oa:hasTarget' in x[item]:
             #print 'oa:hasTarget -> ' + str(x[item]['oa:hasTarget'])
             if 'oa:hasSelector' in x[item]['oa:hasTarget'][0]:
 
-                #get name here TODO
-                #name = x[item]['oa:hasTarget'][0]['']['']
-                #get collection here TODO
-                #collection = x[item]['oa:hasTarget'][0]['']['']
+                if 'oa:hasSource' in x[item]['oa:hasTarget'][0]:
+                    # get name here
+                    name_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['display_title']
+                    # get id here
+                    id_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['value_resource_id']
+                    #get type value_resource_name
+                    type_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['value_resource_name']
+                    #get url item
+                    url_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['@id' \
+                                                                             '']
+                    #get item via API
+                    x_item = request_api(base_url_items+str(id_item))
+
+                    # get collection here TODO
+                    if len(x_item['o:item_set']) > 0 and 'o:id' in x_item['o:item_set'][0]:
+                        collection_item = x_item['o:item_set'][0]['o:id']
+
+                    if len(x_item['o:media']) > 0 and '@id' in x_item['o:media'][0]:
+                        url_media = x_item['o:media'][0]['@id']
+
+                        # get item via API
+                        x_media = request_api(url_media)
+                        if 'medium' in x_media['o:thumbnail_urls']:
+                            print url_media_jpg
+                            url_media_jpg = str(x_media['o:thumbnail_urls']['medium'])
 
                 #print '     oa:hasSelector -> ' + str(x[item]['oa:hasTarget'][0]['oa:hasSelector'])
                 if 'rdf:value' in x[item]['oa:hasTarget'][0]['oa:hasSelector']:
@@ -173,7 +258,7 @@ for page in range(1):
                         if p.__geo_interface__['type'] == 'Point':
                             print "it's a point : " + str(p.__geo_interface__['coordinates'][0]) + ' ' + str(p.__geo_interface__['coordinates'][1])
                             w_points.point(p.__geo_interface__['coordinates'][0], p.__geo_interface__['coordinates'][1])
-                            w_points.record(i, name, collection)
+                            w_points.record(i, id_item, name_item, type_item, collection_item, url_item, url_media, url_media_jpg, date)
                             cpt_points += 1
 
                         if p.__geo_interface__['type'] == 'LineString':
@@ -187,13 +272,13 @@ for page in range(1):
                             print line
                             part_line.append(line)
                             w_lines.line(part_line)
-                            w_lines.record(i, name, collection)
+                            w_lines.record(i, id_item, name_item, type_item, collection_item, url_item, url_media, url_media_jpg, date)
                             cpt_lines += 1
 
                         if p.__geo_interface__['type'] == 'Polygon':
                             print "it's a polygon : " + str(p.__geo_interface__['coordinates'])
                             w_polygons.poly(p.__geo_interface__['coordinates'])
-                            w_polygons.record(i, name, collection)
+                            w_polygons.record(i, id_item, name_item, type_item, collection_item, url_item, url_media, url_media_jpg, date)
                             cpt_poly += 1
 
                         print 'bounding box / centroid'
@@ -217,7 +302,7 @@ for page in range(1):
                             poly = [point1, point2, point3, point4]
                             print poly
                             w_bbox.poly([[point1, point2, point3, point4, point1]])
-                            w_bbox.record(i, name, collection)
+                            w_bbox.record(i, id_item, name_item, type_item, collection_item, url_item, url_media, url_media_jpg, date)
                             cpt_bbox += 1
 
                         else:
@@ -227,21 +312,22 @@ for page in range(1):
 
                         print 'centroid'
                         w_centroid.point(pointx_centroid, pointy_centroid )
-                        w_centroid.record(i, name, collection)
+                        w_centroid.record(i, id_item, name_item, type_item, collection_item, url_item, url_media, url_media_jpg, date)
                         cpt_centroid += 1
 
-        print 'nb records ' + str(i)
-        print 'nb records points ' + str(cpt_points)
-        print 'nb records lines ' + str(cpt_lines)
-        print 'nb records polys ' + str(cpt_poly)
-        print 'nb records bbox ' + str(cpt_bbox)
-        print 'nb records centroid ' + str(cpt_centroid)
         i += 1
 
     w_points.close()
     w_lines.close()
     w_polygons.close()
     w_centroid.close()
+
+    print 'nb records ' + str(i)
+    print 'nb records points ' + str(cpt_points)
+    print 'nb records lines ' + str(cpt_lines)
+    print 'nb records polys ' + str(cpt_poly)
+    print 'nb records bbox ' + str(cpt_bbox)
+    print 'nb records centroid ' + str(cpt_centroid)
 
         # print 'searching for POINT'
         # results_searching_points = pretty_search(x[item], 'POINT', False)
