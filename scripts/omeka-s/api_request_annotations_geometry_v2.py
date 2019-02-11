@@ -114,7 +114,7 @@ _http = httplib2.Http()
 
 nb_pages = 190
 nb_item_per_page = 1500
-nb_annot = 1283
+nb_annot = 1353
 
 # URL Omeka-s API
 base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
@@ -124,7 +124,7 @@ base_url_items = "http://psig.huma-num.fr/omeka-s/api/items/"
 G = nx.Graph()
 
 dir = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\'
-dir_out = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\'
+dir_out = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\shp\\'
 
 for page in range(1):
 
@@ -340,4 +340,3 @@ for page in range(1):
         # print 'searching for POLYGON'
         # results_searching_points = pretty_search(x[item], 'POLYGON', False)
         # print results_searching_points
-

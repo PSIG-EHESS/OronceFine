@@ -62,11 +62,31 @@ def read_node(url):
 
         return -1, '', -1
 
+def add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name, target_node_collection, motivation, poids):
+
+    G.add_edge(id_node_source, id_node_target, motivation=str(motivation), weight=poids)
+
+    G.nodes[id_node_source]['name'] = name_node_source  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
+    G.nodes[id_node_source]['id_item'] = id_node_source  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
+    G.nodes[id_node_source]['group'] = collection_source  # récupérer le nom de l'item éventuellement
+    G.nodes[id_node_source]['color'] = collection_source  # récupérer le nom de l'item éventuellement
+
+    G.nodes[id_node_target]['name'] = target_node_name  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
+    G.nodes[id_node_target]['id_item'] = id_node_target  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
+    G.nodes[id_node_target]['group'] = target_node_collection  # récupérer le nom de l'item éventuellement
+    G.nodes[id_node_target]['color'] = target_node_collection  # récupérer le nom de l'item éventuellement
+
+
+
+########### START HERE ###############
+
+
+
 _http = httplib2.Http()
 
 nb_pages = 190
 nb_item_per_page = 1500
-nb_annot = 1349
+nb_annot = 1354
 
 # URL Omeka-s API
 base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
@@ -153,10 +173,10 @@ for item in range(0, nb_annot):
             for nb in range(0, len(body)):
 
                 if '@id' in body[nb]:
-                    print '       connection exists !'
+                    print '       connection exists (@id) !'
                     value_url = body[nb]['@id']
                     #print 'type ' + type(x[item]['body'][nb]['value'])
-                    print '             value = ' + value_url
+                    print '                 value = ' + value_url
                     id_node_target, target_node_name, target_node_collection = read_node(value_url)
                     #print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
                     print '                 name = ' + target_node_name#.encode("latin-1"))
@@ -164,22 +184,30 @@ for item in range(0, nb_annot):
                     print '                 node end in int from url = ' + str(id_node_target)
                     #G.add_node(node_target)
 
-                    print '                     connect : ' + str(id_node_source) + ' -- ' + str(id_node_target)
+                    print '                 connect (@id) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
 
-                    G.add_edge(id_node_source, id_node_target, motivation=str(motivation), weight=1.0)
+                    add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
+                             target_node_collection, motivation, 1.0)
 
-                    G.nodes[id_node_source]['name'] = name_node_source#.encode("latin-1")) #récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_source]['id_item'] = id_node_source  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_source]['group'] = collection_source  # récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_source]['color'] = collection_source  # récupérer le nom de l'item éventuellement
+                if 'rdf:value' in body[nb] and '@id' in body[nb]['rdf:value'][0]:
+                    print '       connection exists (rdf:value) !'
+                    value_url = body[nb]['rdf:value'][0]['@id']
+                    # print 'type ' + type(x[item]['body'][nb]['value'])
+                    print '                 value = ' + value_url
+                    id_node_target, target_node_name, target_node_collection = read_node(value_url)
+                    # print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
+                    print '                 name = ' + target_node_name  # .encode("latin-1"))
 
-                    G.nodes[id_node_target]['name'] = target_node_name#.encode("latin-1")) #récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_target]['id_item'] = id_node_target  # .encode("latin-1")) #récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_target]['group'] = target_node_collection  # récupérer le nom de l'item éventuellement
-                    G.nodes[id_node_target]['color'] = target_node_collection  # récupérer le nom de l'item éventuellement
+                    print '                 node end in int from url = ' + str(id_node_target)
+                    # G.add_node(node_target)
+
+                    print '                 connect (rdf:value) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
+
+                    add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
+                             target_node_collection, motivation, 1.0)
 
     i += 1
-
+    #End loop
 
 #Extract nodes and links for json from Graph
 cpt_nodes = 0
