@@ -267,6 +267,4 @@ filename = 'C:\\Users\\Eric Mermet\\Desktop\\PycharmProjects\\OronceFine\\script
 with io.open(filename, 'wb') as f:
      json.dump({'nodes': nodes, 'links': links},
                f, indent=4, )
-
-
 print('ok')
