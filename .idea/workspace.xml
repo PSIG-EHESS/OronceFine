@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="058bea26-77d9-4ae7-b45f-c699cb9c6b7d" name="Default" comment="Commit annotations network pacha value large network">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/geonames_wiki.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/geonames_wiki.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/geonames_wiki.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/chart_example_from_d3-graph-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/data_for_sankey.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/data_simple_for_sankey.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/distance_stats_export.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/distance_stats_export_utf8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/csv_to_json/energy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/css/fonts/BatonTurboWeb-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/css/fonts/endroit_book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/css/fonts/endroit_book_mono.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/hourglass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/sb-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/images/zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/localisation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/out/graph_annotations_omeka-s.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/app/themes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/graph_annotations_omeka-s_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/html/paris_albert_khan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_geometry_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/omeka-sgraph_annotations_collection_717270_02_2022.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_for_geometries_avril2021.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_for_geometries_pacha.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p31.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p32.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/export_annotations_omeka-s_p9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_706186.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_07_07_2020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_07_07_2020_concepts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_07_07_2020_concepts_low.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_10_2020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_10_2020_concepts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_10_2020_concepts_low.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_collection_717270_711991_07_07_2020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/graph_annotations_omeka-s_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_641835_étang_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_641851_La Tardes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_641860_Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_669049_Canal de vidange de l'Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_669063_Lussat_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_669069_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681161_champs_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681166_arbres aux couleurs d'automne_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681171_arbre à moitié mort et vivant_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681293_pesticides_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681301_épandages_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681458_vol de grues sauvages_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681464_vol de grues sauvages_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681517_chemin de Besse-Mathieu_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681522_chemin de chez Marthe_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681527_route de Gouzon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641830_681980_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668711_Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668785_Chambon sur Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668792_Gouzon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668797_Toulx Sainte Croix_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668802_Boussac_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668807_Evaux les Bains_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668812_Montluçon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668827_Mine du Châtelet_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668832_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_668837_Bord Saint Georges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681111_déforestation_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681116_déforestation_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681121_déforestation_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681126_flore_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681131_flore_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681141_pâture_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681146_chefs-lieux des départements_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681156_chef-lieux des départements_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681266_pollutions toxiques de l'eau_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681271_travaux de creusement_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681470_vaches bleues_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681476_vache bleue_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681485_pollutions toxiques de l'air_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681500_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641862_681975_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_668842_La Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681081_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681086_ail des ours_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681091_amadou_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681096_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681101_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681106_arbres_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681358_passage entre les deux rives de la Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681363_ancienne route d'accès à la mine de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681369_D55_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681374_route de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681379_héron_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681384_Montluçon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681389_étang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681394_Loin_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681399_chemin au dessus du tunnel de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681404_chemin au dessus du tunnel de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681409_Mine de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641864_681970_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_668847_La Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_668852_Lussat_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_668857_Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_668862_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681057_idéologiquement lointain_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681061_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681066_arbres_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681071_roseaux_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681076_champs_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681414_triton crêté_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681532_lingots d'or_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681542_tunnel de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641866_681965_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_668867_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681047_capitaux de l'industrie minière_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681052_implantations de l'industrie minière_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681257_La religion industrielle_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681502_comedia dell'Arte_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681507_lingots d'or_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681512_pièces d'or_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641868_681960_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_668872_Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_668877_Chambon sur Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_668882_Budelière_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_668887_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_681042_arbre de la vie_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_681490_montluçon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641870_681955_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_668937_La Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_668951_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681017_peupliers de la compensation_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681022_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681027_forêt_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681032_champignon langue de boeuf_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681330_bâches plastiques laissées par TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681335_canards_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681342_passage entre les deux rives de la Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681347_ancienne route d'accès à la mine de TCM_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681353_D55_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681495_route de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641872_681950_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_668963_Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_668968_Mine de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_668975_Lussat_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_668986_La Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_680980_ail des ours_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_680985_plante comestible_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_680990_plante comestible_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681002_peupliers de la compensation_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681007_herbes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681012_branches cassées_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681306_lointain_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681427_héron_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681432_nids de martin-pêcheurs_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681437_vol de grues sauvages_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681443_route de Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681448_poils de lièvre_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681453_chemin entre les deux rives de la Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_681945_carte en binôme_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_682370_odeur de plante inconnue_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_682375_gardons_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_641874_682380_hérons_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_681986_carte collective_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682002_étang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682012_la Tardes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682022_le Cher_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682030_la Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682035_ruisseau de l'Etang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682040_ruisseau de l'Etang de Planche Page_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682045_barrage de Rochebut_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682050_vol de grues sauvages_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682056_produits toxiques_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682061_pelleteuse_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682066_excavatrice_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682071_débats provoqués par l'arrivée de la mine_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682091_Villeranges_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682096_Gouzon_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682101_Vivance des lieux, attachement_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682110_empruntes d'animaux_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682115_Vue_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682139_produits locaux de saison_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682145_oiseaux_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682151_triton crêté_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682157_Ail des ours_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682164_gilet jaune_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682170_champignons_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682176_nid d'oiseaux_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682190_Ouïe_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682196_randonnée_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682201_repos_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682208_Odorat_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682214_éoliennes industrielles_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682220_désert médical_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682227_butte de stériles du Châtelet_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682262_évasion fiscale_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682269_Bureau de Recherches Géologiques et Minières_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682283_Fédération Nationale des Syndicats d'Exploitants Agricoles_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682290_Association Communale de Chasse Agréée_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682299_exploitations d'uranium par Areva_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682307_les Bahamas_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682314_Lichtenstein_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682321_Luxembourg_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682328_Panama_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682335_Abou Dhabi_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682342_Delaware_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682349_Conseil Départemental_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682356_Syndicat des eaux_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681419_682363_grues_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681892_Arbre de vie_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681904_échelle locale_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681910_Arbre mort_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681916_échelle globale_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681922_étang des Landes_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681932_Lussat_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681940_La Voueize_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/img_Daphné/out_681424_681994_carte collective_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_725790_Không thôn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_726158_Ở thượng l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_726294_Phía trên .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_726384_Lại có một.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_728986_embouchure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_729061_embouchure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_729067_embouchure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717324_729077_embouchure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_724203_Bản đồ bìn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_724207_Từ Đồng Hớ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_724213_Đốc suất Đ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_728930_polygone e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_728937_polygone e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_728951_polygone e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_728961_polygone e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/img/out_717325_728976_polygone e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/OFshp.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/OFshp_polygones_all.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/all_polygons_OF.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.qpj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons_v2.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons_v2.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons_v2.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons_v2.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/collection_pontoise_shape_all_geom_omeka_polygons_v2.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox_avril2021.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox_avril2021.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox_avril2021.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_bbox_avril2021.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid_avril2021.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid_avril2021.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid_avril2021.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_centroid_avril2021.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines_avril2021.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines_avril2021.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines_avril2021.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_lines_avril2021.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_paris.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_avril2021.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_avril2021.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_avril2021.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_avril2021.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.qpj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_paris_adlp_utf8.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.qpj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_pontoise.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.qpj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_points_utf8.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons_avril2021.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons_avril2021.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons_avril2021.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shape_all_geom_omeka_polygons_avril2021.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/shp_pontoise.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/style_all_polygones.sld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/shp/style_points_adlp.sld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/wiki/geonames_wiki.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/wiki/geonames_wiki.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/out/wiki/geonames_wiki.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ericmermet" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dOy19F2sm6JbFDi3Cb4xRarhYG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="OronceFine" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="OronceFine" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\PycharmProjects\OronceFine\scripts\csv_to_json" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eric\PycharmProjects\OronceFine\scripts\html\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.api_request_annotations_network_pacha_values">
+    <configuration name="accessHistoricalGeocodeur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inpi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/data/PTM/inpi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:/data/PTM/inpi/accessHistoricalGeocodeur.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_extract_images_describe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OronceFine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/omeka-s" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/omeka-s/api_extract_images_describe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_request_annotations_geometry_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OronceFine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/omeka-s" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_geometry_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_request_annotations_network_pacha_concepts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OronceFine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/omeka-s" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_concepts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_request_annotations_network_pacha_values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OronceFine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/omeka-s" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.accessHistoricalGeocodeur" />
+      <item itemvalue="Python.api_extract_images_describe" />
+      <item itemvalue="Python.api_request_annotations_geometry_v3" />
+      <item itemvalue="Python.api_request_annotations_network_pacha_concepts" />
+      <item itemvalue="Python.api_request_annotations_network_pacha_values" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.api_request_annotations_network_pacha_values" />
+        <item itemvalue="Python.api_request_annotations_geometry_v3" />
+        <item itemvalue="Python.api_request_annotations_network_pacha_concepts" />
+        <item itemvalue="Python.api_extract_images_describe" />
+        <item itemvalue="Python.accessHistoricalGeocodeur" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="058bea26-77d9-4ae7-b45f-c699cb9c6b7d" name="Default" comment="" />
+      <created>1549016970422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549016970422</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit scripts python / annotations / graph / geometry">
+      <created>1549017658107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549017658107</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit scripts python / annotations / graph / geometry">
+      <created>1549017678091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549017678091</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Html graph &amp; out data files (jsons graph, shp)">
+      <created>1549018166232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549018166232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="code for requesting GIS geometries on omeka-s API">
+      <created>1549059387226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549059387226</updated>
+    </task>
+    <task id="LOCAL-00005" summary="clear and hide password geoserver psig">
+      <created>1549059694223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549059694223</updated>
+    </task>
+    <task id="LOCAL-00006" summary="request geometries from omeka-s api with new schema">
+      <created>1549204087232</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549204087232</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all geometries (points, lines, polygons, bbox, centroids) in shp">
+      <created>1549204189323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549204189323</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modify export annotations with new schema">
+      <created>1549816889613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549816889613</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit Geom with adds on Africa">
+      <created>1549889359682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549889359682</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit annotations network pacha value large network">
+      <created>1644273220732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644273220732</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit scripts python / annotations / graph / geometry" />
+    <MESSAGE value="Html graph &amp; out data files (jsons graph, shp)" />
+    <MESSAGE value="code for requesting GIS geometries on omeka-s API" />
+    <MESSAGE value="clear and hide password geoserver psig" />
+    <MESSAGE value="request geometries from omeka-s api with new schema" />
+    <MESSAGE value="all geometries (points, lines, polygons, bbox, centroids) in shp" />
+    <MESSAGE value="Modify export annotations with new schema" />
+    <MESSAGE value="Commit Geom with adds on Africa" />
+    <MESSAGE value="Commit annotations network pacha value large network" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit annotations network pacha value large network" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/geonames/api_geonames_request.py</url>
+          <line>3</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_geometry_v2.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../Python27/Lib/site-packages/shapefile.py</url>
+          <line>1713</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/csv_to_graph/csv_to_graph.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py</url>
+          <line>235</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_network_pacha_values.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_geometry_v3.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/omeka-s/api_request_annotations_geometry_v3.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

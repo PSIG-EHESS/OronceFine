@@ -1,0 +1,1062 @@
+{
+    "nodes": [
+        {
+            "id_item": 708566, 
+            "group": "706186", 
+            "id": 0, 
+            "name": "organisation spatiale de proche en proche"
+        }, 
+        {
+            "id_item": 707415, 
+            "group": "706186", 
+            "id": 1, 
+            "name": "SCS_S\u00e9ance_1_B"
+        }, 
+        {
+            "id_item": 708547, 
+            "group": "706186", 
+            "id": 2, 
+            "name": "j'aime"
+        }, 
+        {
+            "id_item": 708548, 
+            "group": "706186", 
+            "id": 3, 
+            "name": "j'aime pas"
+        }, 
+        {
+            "id_item": 708549, 
+            "group": "706186", 
+            "id": 4, 
+            "name": "conservation des distances"
+        }, 
+        {
+            "id_item": 708550, 
+            "group": "706186", 
+            "id": 5, 
+            "name": "distorsion"
+        }, 
+        {
+            "id_item": 708551, 
+            "group": "706186", 
+            "id": 6, 
+            "name": "orientation relative"
+        }, 
+        {
+            "id_item": 708552, 
+            "group": "706186", 
+            "id": 7, 
+            "name": "pr\u00e9sence de rep\u00e8res perceptifs"
+        }, 
+        {
+            "id_item": 708553, 
+            "group": "706186", 
+            "id": 8, 
+            "name": "pr\u00e9sence de rep\u00e8res physiques"
+        }, 
+        {
+            "id_item": 708554, 
+            "group": "706186", 
+            "id": 9, 
+            "name": "carte pour autrui"
+        }, 
+        {
+            "id_item": 708555, 
+            "group": "706186", 
+            "id": 10, 
+            "name": "interpr\u00e9tation facile de la localisation"
+        }, 
+        {
+            "id_item": 708556, 
+            "group": "706186", 
+            "id": 11, 
+            "name": "interpr\u00e9tation facile de la symbolisation"
+        }, 
+        {
+            "id_item": 708557, 
+            "group": "706186", 
+            "id": 12, 
+            "name": "prise de notes personnelles"
+        }, 
+        {
+            "id_item": 708558, 
+            "group": "706186", 
+            "id": 13, 
+            "name": "information \u00e9motionnelle"
+        }, 
+        {
+            "id_item": 708559, 
+            "group": "706186", 
+            "id": 14, 
+            "name": "information perceptive"
+        }, 
+        {
+            "id_item": 708560, 
+            "group": "706186", 
+            "id": 15, 
+            "name": "intuitive"
+        }, 
+        {
+            "id_item": 708561, 
+            "group": "706186", 
+            "id": 16, 
+            "name": "personnelle"
+        }, 
+        {
+            "id_item": 708562, 
+            "group": "706186", 
+            "id": 17, 
+            "name": "utilisation des r\u00e8gles de s\u00e9miologie"
+        }, 
+        {
+            "id_item": 708563, 
+            "group": "706186", 
+            "id": 18, 
+            "name": "pr\u00e9sence importante du texte pour repr\u00e9senter des objets physiques"
+        }, 
+        {
+            "id_item": 708564, 
+            "group": "706186", 
+            "id": 19, 
+            "name": "pr\u00e9sence importante du texte pour repr\u00e9senter des informations perceptives"
+        }, 
+        {
+            "id_item": 708565, 
+            "group": "706186", 
+            "id": 20, 
+            "name": "organisation spatiale conceptuelle"
+        }, 
+        {
+            "id_item": 707414, 
+            "group": "706186", 
+            "id": 21, 
+            "name": "SCS_S\u00e9ance_1_A"
+        }, 
+        {
+            "id_item": 708567, 
+            "group": "706186", 
+            "id": 22, 
+            "name": "organisation spatiale a\u00e9rienne"
+        }, 
+        {
+            "id_item": 707416, 
+            "group": "706186", 
+            "id": 23, 
+            "name": "SCS_S\u00e9ance_1_C"
+        }, 
+        {
+            "id_item": 707417, 
+            "group": "706186", 
+            "id": 24, 
+            "name": "SCS_S\u00e9ance_1_D"
+        }, 
+        {
+            "id_item": 707418, 
+            "group": "706186", 
+            "id": 25, 
+            "name": "SCS_S\u00e9ance_1_E"
+        }, 
+        {
+            "id_item": 707419, 
+            "group": "706186", 
+            "id": 26, 
+            "name": "SCS_S\u00e9ance_1_F"
+        }, 
+        {
+            "id_item": 707420, 
+            "group": "706186", 
+            "id": 27, 
+            "name": "SCS_S\u00e9ance_1_G"
+        }, 
+        {
+            "id_item": 707421, 
+            "group": "706186", 
+            "id": 28, 
+            "name": "SCS_S\u00e9ance_2_A"
+        }, 
+        {
+            "id_item": 707422, 
+            "group": "706186", 
+            "id": 29, 
+            "name": "SCS_S\u00e9ance_2_B"
+        }, 
+        {
+            "id_item": 707423, 
+            "group": "706186", 
+            "id": 30, 
+            "name": "SCS_S\u00e9ance_2_C"
+        }, 
+        {
+            "id_item": 707424, 
+            "group": "706186", 
+            "id": 31, 
+            "name": "SCS_S\u00e9ance_2_D"
+        }, 
+        {
+            "id_item": 707425, 
+            "group": "706186", 
+            "id": 32, 
+            "name": "SCS_S\u00e9ance_2_E"
+        }, 
+        {
+            "id_item": 707426, 
+            "group": "706186", 
+            "id": 33, 
+            "name": "SCS_S\u00e9ance_2_F"
+        }, 
+        {
+            "id_item": 707427, 
+            "group": "706186", 
+            "id": 34, 
+            "name": "SCS_S\u00e9ance_2_G"
+        }, 
+        {
+            "id_item": 707428, 
+            "group": "706186", 
+            "id": 35, 
+            "name": "SCS_S\u00e9ance_3_A"
+        }, 
+        {
+            "id_item": 707429, 
+            "group": "706186", 
+            "id": 36, 
+            "name": "SCS_S\u00e9ance_3_B"
+        }, 
+        {
+            "id_item": 707430, 
+            "group": "706186", 
+            "id": 37, 
+            "name": "SCS_S\u00e9ance_3_C"
+        }, 
+        {
+            "id_item": 707431, 
+            "group": "706186", 
+            "id": 38, 
+            "name": "SCS_S\u00e9ance_3_D"
+        }, 
+        {
+            "id_item": 707432, 
+            "group": "706186", 
+            "id": 39, 
+            "name": "SCS_S\u00e9ance_3_E"
+        }, 
+        {
+            "id_item": 707433, 
+            "group": "706186", 
+            "id": 40, 
+            "name": "SCS_S\u00e9ance_3_F"
+        }, 
+        {
+            "id_item": 707434, 
+            "group": "706186", 
+            "id": 41, 
+            "name": "SCS_S\u00e9ance_3_G"
+        }, 
+        {
+            "id_item": 707435, 
+            "group": "706186", 
+            "id": 42, 
+            "name": "SCS_S\u00e9ance_4_A"
+        }, 
+        {
+            "id_item": 707436, 
+            "group": "706186", 
+            "id": 43, 
+            "name": "SCS_S\u00e9ance_4_B"
+        }, 
+        {
+            "id_item": 707437, 
+            "group": "706186", 
+            "id": 44, 
+            "name": "SCS_S\u00e9ance_5_A"
+        }, 
+        {
+            "id_item": 707438, 
+            "group": "706186", 
+            "id": 45, 
+            "name": "SCS_S\u00e9ance_5_B"
+        }, 
+        {
+            "id_item": 707439, 
+            "group": "706186", 
+            "id": 46, 
+            "name": "SCS_S\u00e9ance_5_C"
+        }, 
+        {
+            "id_item": 707440, 
+            "group": "706186", 
+            "id": 47, 
+            "name": "SCS_S\u00e9ance_5_D"
+        }, 
+        {
+            "id_item": 707441, 
+            "group": "706186", 
+            "id": 48, 
+            "name": "SCS_S\u00e9ance_5_E"
+        }, 
+        {
+            "id_item": 707442, 
+            "group": "706186", 
+            "id": 49, 
+            "name": "SCS_S\u00e9ance_6_A"
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 40, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 23, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 2, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 8, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 14, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 16, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 19, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 22, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 35, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 30, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "", 
+            "target": 23, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "", 
+            "target": 33, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "", 
+            "target": 33, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 6, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 7, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 40, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 42, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "", 
+            "target": 23, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 40, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 11, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 11, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 11, 
+            "motivation": "", 
+            "target": 29, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 12, 
+            "motivation": "", 
+            "target": 42, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 12, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 12, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 31, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 47, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 24, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 29, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 29, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 30, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 46, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 47, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 24, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 33, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 35, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 24, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 30, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 46, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 48, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 46, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 47, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 48, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 23, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 24, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 30, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 31, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 35, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 40, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 42, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 49, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 26, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 29, 
+            "weight": 1.0
+        }
+    ]
+}

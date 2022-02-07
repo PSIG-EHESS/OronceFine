@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Metro 4 -->
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+            integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+            crossorigin=""></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+
+<style>
+
+       body {
+           padding: 0;
+           margin: 0;
+           height: 80%;
+           width: 100vw;
+           background: white;
+       }
+
+       html,
+       #mapid {
+           height: 100%;
+           width: 100vw;
+       }
+
+       #content {
+           height: 100%;
+           width: 100vw;
+           background: white;
+       }
+
+</style>
+
+<body>
+
+<!--<aside class="sidebar pos-absolute z-2" data-role="sidebar" data-toggle="#sidebar-toggle-2">-->
+<!--    <div class="sidebar-header" data-image="images/sb-bg-1.jpg">-->
+<!--        <div class="avatar">-->
+<!--            <img data-role="gravatar" data-email="oronce.fine@ehess.fr">-->
+<!--        </div>-->
+<!--        <span class="title fg-white">EHESS</span>-->
+<!--        <span class="subtitle fg-white"> 2019 © Oronce Fine</span>-->
+<!--    </div>-->
+<!--    <ul class="sidebar-menu">-->
+<!--        <li><a><span class="mif-home icon"></span>Home</a></li>-->
+<!--        <li><a><span class="mif-books icon"></span>Guide</a></li>-->
+<!--        <li><a><span class="mif-files-empty icon"></span>Examples</a></li>-->
+<!--        <li class="divider"></li>-->
+<!--        <li><a><span class="mif-images icon"></span>Paramètres</a></li>-->
+<!--    </ul>-->
+<!--</aside>-->
+<!--<div class="h-100 p-ab">-->
+<!--    <button class="button square pos-absolute pos-top-right"-->
+<!--            id="sidebar-toggle-2">-->
+<!--        <span class="mif-menu"></span>-->
+<!--    </button>-->
+<!--</div>-->
+
+<nav data-role="ribbonmenu">
+    <ul class="tabs-holder">
+        <li class="static"><a href="#">Oronce Fine App</a></li>
+        <li><a id="section-carto" href="#section-one">Cartographie</a></li>
+        <li><a id="section-timeline" href="#section-two">Timeline</a></li>
+        <li><a id="section-network" href="#section-three">Réseau</a></li>
+        <li><a id="section-keywords" href="#section-four">Mots-clés</a></li>
+    </ul>
+
+    <div class="content-holder">
+
+        <!--            Section one carto-->
+        <div class="section" id="section-one">
+
+            <div class="group">
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/center.svg">
+                        </span>
+                    <span class="caption">Centrer</span>
+                </button>
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/share.svg">
+                        </span>
+                    <span class="caption">Recherche spatiale</span>
+                </button>
+
+                <span class="title">Navigation</span>
+            </div>
+
+            <div class="group">
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/zoom-in.svg">
+                        </span>
+                    <span class="caption">Zoom in</span>
+                </button>
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/zoom-out.svg">
+                        </span>
+                    <span class="caption">Zoom out</span>
+                </button>
+
+                <span class="title">Zoom</span>
+            </div>
+
+        </div>
+
+        <!--            Section two time-->
+        <div class="section" id="section-two">
+            <div class="group">
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/hourglass.svg">
+                        </span>
+                    <span class="caption">Time !!</span>
+                </button>
+
+                <span class="title">Recherche temporelle</span>
+            </div>
+        </div>
+
+        <!--            Section three network-->
+        <div class="section" id="section-three">
+
+            <div class="group">
+                <div class="ribbon-split-button">
+                    <button class="ribbon-main">
+                            <span class="icon">
+                                <span class="mif-cogs"></span>
+                            </span>
+                    </button>
+                    <span class="ribbon-split dropdown-toggle">Options</span>
+                    <ul class="ribbon-dropdown" data-role="dropdown" data-duration="100">
+                        <li class="checked"><a href="#">Modification</a></li>
+                        <li class="checked"><a href="#">Type</a></li>
+                        <li class="checked"><a href="#">Size</a></li>
+                        <li><a href="#">Creating</a></li>
+                        <li><a href="#">Authors</a></li>
+                        <li class="checked-one"><a href="#">Tags</a></li>
+                        <li><a href="#">Names</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Columns...</a></li>
+                    </ul>
+                </div>
+                <span class="title">Recherche réseau</span>
+            </div>
+
+        </div>
+
+        <!--            Section four text-->
+        <div class="section" id="section-four">
+            <div class="group">
+                <button class="ribbon-button">
+                        <span class="icon">
+                            <img src="images/text.svg">
+                        </span>
+                    <span class="caption">Search</span>
+                </button>
+
+                <span class="title">Recherche de texte</span>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<iframe id="content" src="localisation.html"></iframe>
+
+<script>
+
+        var allowCrossDomain = function(req, res, next) {
+            res.header('Access-Control-Allow-Origin', "*");
+            res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+            res.header('Access-Control-Allow-Headers', 'Content-Type');
+            next();
+        }
+
+        $('#section-carto').click(function(){
+                document.getElementById('content').src = 'localisation.html';
+        });
+
+        $('#section-network').click(function(){
+                document.getElementById('content').src = 'themes.html';
+        });
+
+        $('#section-timeline').click(function(){
+                document.getElementById('content').src = 'timeline.html';
+        });
+
+        $('#section-keywords').click(function(){
+                document.getElementById('content').src = 'keywords.html';
+        });
+
+
+</script>
+
+<!-- jQuery first, then Metro UI JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>

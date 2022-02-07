@@ -1,0 +1,6606 @@
+{
+    "nodes": [
+        {
+            "id_item": 638465, 
+            "group": "630970", 
+            "id": 0, 
+            "name": "photographie du chantier de la caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 638467, 
+            "group": "630970", 
+            "id": 1, 
+            "name": "casque mis au jour \u00e0 la caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 641820, 
+            "group": "-1", 
+            "id": 2, 
+            "name": "Hydrographie"
+        }, 
+        {
+            "id_item": 638469, 
+            "group": "630970", 
+            "id": 3, 
+            "name": "entr\u00e9e du 22\u00e8me dragon\r\n"
+        }, 
+        {
+            "id_item": 638471, 
+            "group": "630970", 
+            "id": 4, 
+            "name": "carte postale de la caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 638473, 
+            "group": "630970", 
+            "id": 5, 
+            "name": "caisse d'obus mise au jour sur la caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 638475, 
+            "group": "630970", 
+            "id": 6, 
+            "name": "plan du quartier de Cavalerie de Pontoise en 1916\r\n"
+        }, 
+        {
+            "id_item": 638477, 
+            "group": "630970", 
+            "id": 7, 
+            "name": "plan des structures et s\u00e9pultures mises au jour sous le parvis de Saint-Maclou\r\n\r\n"
+        }, 
+        {
+            "id_item": 631822, 
+            "group": "631481", 
+            "id": 8, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 638479, 
+            "group": "630970", 
+            "id": 9, 
+            "name": "pathologie cr\u00e2nienne rep\u00e9r\u00e9e lors des fouilles du Grand Martroy\r\n"
+        }, 
+        {
+            "id_item": 635408, 
+            "group": "-1", 
+            "id": 10, 
+            "name": "\u00c9glise de Burguete"
+        }, 
+        {
+            "id_item": 631825, 
+            "group": "631481", 
+            "id": 11, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 638483, 
+            "group": "630970", 
+            "id": 12, 
+            "name": "portion de la chauss\u00e9e Jules C\u00e9sar \r\n"
+        }, 
+        {
+            "id_item": 638382, 
+            "group": "630970", 
+            "id": 13, 
+            "name": "Vue a\u00e9rienne de Pontoise : centre ville\r\n"
+        }, 
+        {
+            "id_item": 640213, 
+            "group": "630970", 
+            "id": 14, 
+            "name": "La Viosne"
+        }, 
+        {
+            "id_item": 638298, 
+            "group": "630970", 
+            "id": 15, 
+            "name": "Saint Ouen l'Aum\u00f4ne : Le pont de chemin de fer et le ch\u00e2teau de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 633888, 
+            "group": "-1", 
+            "id": 16, 
+            "name": "Chemin de Saint Jacques"
+        }, 
+        {
+            "id_item": 633890, 
+            "group": "-1", 
+            "id": 17, 
+            "name": "Partie en terre du chemin de Saint Jacques"
+        }, 
+        {
+            "id_item": 633891, 
+            "group": "-1", 
+            "id": 18, 
+            "name": "Trac\u00e9 du chemin de Saint Jacques sous l'asphalte "
+        }, 
+        {
+            "id_item": 633892, 
+            "group": "-1", 
+            "id": 19, 
+            "name": "Trac\u00e9 disparu du chemin de Saint Jacques "
+        }, 
+        {
+            "id_item": 633893, 
+            "group": "-1", 
+            "id": 20, 
+            "name": "Proposition d\u2019actualisation de l'itin\u00e9raire du chemin de Saint Jacques"
+        }, 
+        {
+            "id_item": 638300, 
+            "group": "630970", 
+            "id": 21, 
+            "name": "Epicerie de l'\u00e9cluse de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638507, 
+            "group": "-1", 
+            "id": 22, 
+            "name": "F\u00eates"
+        }, 
+        {
+            "id_item": 638508, 
+            "group": "-1", 
+            "id": 23, 
+            "name": "Pont du Chemin de fer et vue sur Pontoise "
+        }, 
+        {
+            "id_item": 638509, 
+            "group": "-1", 
+            "id": 24, 
+            "name": "Pontoise, le pont et Saint Ouen l'Aum\u00f4ne "
+        }, 
+        {
+            "id_item": 640046, 
+            "group": "630970", 
+            "id": 25, 
+            "name": "march\u00e9s"
+        }, 
+        {
+            "id_item": 635951, 
+            "group": "-1", 
+            "id": 26, 
+            "name": "\u00e9glise San Pedro de la Rua"
+        }, 
+        {
+            "id_item": 640546, 
+            "group": "630970", 
+            "id": 27, 
+            "name": "le ch\u00e2teau de Pontoise"
+        }, 
+        {
+            "id_item": 640888, 
+            "group": "630970", 
+            "id": 28, 
+            "name": "\u00e9glise Saint-Andr\u00e9"
+        }, 
+        {
+            "id_item": 638406, 
+            "group": "630970", 
+            "id": 29, 
+            "name": "vue g\u00e9n\u00e9rale de Pontoise et son pont depuis la rive gauche\r\n"
+        }, 
+        {
+            "id_item": 640180, 
+            "group": "630970", 
+            "id": 30, 
+            "name": "moulins"
+        }, 
+        {
+            "id_item": 631868, 
+            "group": "631481", 
+            "id": 31, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 631869, 
+            "group": "631481", 
+            "id": 32, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 640063, 
+            "group": "630970", 
+            "id": 33, 
+            "name": "piscine du bord de l'Oise"
+        }, 
+        {
+            "id_item": 638296, 
+            "group": "630970", 
+            "id": 34, 
+            "name": "Remorqueur \u00e0 Pontoise \r\n"
+        }, 
+        {
+            "id_item": 631873, 
+            "group": "631481", 
+            "id": 35, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 631874, 
+            "group": "631481", 
+            "id": 36, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 639555, 
+            "group": "630970", 
+            "id": 37, 
+            "name": "place de la gare"
+        }, 
+        {
+            "id_item": 637512, 
+            "group": "-1", 
+            "id": 38, 
+            "name": "\u00e9glise San Salvador"
+        }, 
+        {
+            "id_item": 637513, 
+            "group": "-1", 
+            "id": 39, 
+            "name": "monast\u00e8re de Santa Maria La Real"
+        }, 
+        {
+            "id_item": 637514, 
+            "group": "-1", 
+            "id": 40, 
+            "name": "Couvent de San Francisco"
+        }, 
+        {
+            "id_item": 637515, 
+            "group": "-1", 
+            "id": 41, 
+            "name": "Couvent Nuestra Senora del Carmen"
+        }, 
+        {
+            "id_item": 637516, 
+            "group": "-1", 
+            "id": 42, 
+            "name": "plaza de toros"
+        }, 
+        {
+            "id_item": 637517, 
+            "group": "-1", 
+            "id": 43, 
+            "name": "plaza de San Salvador"
+        }, 
+        {
+            "id_item": 637518, 
+            "group": "-1", 
+            "id": 44, 
+            "name": "\u00e9glise de Santiago Apostol"
+        }, 
+        {
+            "id_item": 640452, 
+            "group": "630970", 
+            "id": 45, 
+            "name": "Caserne Bossut"
+        }, 
+        {
+            "id_item": 639580, 
+            "group": "630970", 
+            "id": 46, 
+            "name": "Saint-Ouen-l'Aum\u00f4ne"
+        }, 
+        {
+            "id_item": 636512, 
+            "group": "-1", 
+            "id": 47, 
+            "name": "Hospital de La Soledad"
+        }, 
+        {
+            "id_item": 636513, 
+            "group": "-1", 
+            "id": 48, 
+            "name": "Plaza del Coso"
+        }, 
+        {
+            "id_item": 636514, 
+            "group": "-1", 
+            "id": 49, 
+            "name": "Puerta de San Felices"
+        }, 
+        {
+            "id_item": 636515, 
+            "group": "-1", 
+            "id": 50, 
+            "name": "Iglesia de Santa Maria"
+        }, 
+        {
+            "id_item": 636516, 
+            "group": "-1", 
+            "id": 51, 
+            "name": "Casa Consistorial (Mairie)"
+        }, 
+        {
+            "id_item": 640497, 
+            "group": "630970", 
+            "id": 52, 
+            "name": "Maisons"
+        }, 
+        {
+            "id_item": 637545, 
+            "group": "-1", 
+            "id": 53, 
+            "name": "nucleus de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 636522, 
+            "group": "-1", 
+            "id": 54, 
+            "name": "Iglesia de San Pedro"
+        }, 
+        {
+            "id_item": 636523, 
+            "group": "-1", 
+            "id": 55, 
+            "name": "Barrio de Viana"
+        }, 
+        {
+            "id_item": 631916, 
+            "group": "631481", 
+            "id": 56, 
+            "name": "Eunate"
+        }, 
+        {
+            "id_item": 639832, 
+            "group": "630970", 
+            "id": 57, 
+            "name": "centre hospitalier de Pontoise"
+        }, 
+        {
+            "id_item": 634131, 
+            "group": "-1", 
+            "id": 58, 
+            "name": "\u00c9glise Saint Jean"
+        }, 
+        {
+            "id_item": 638400, 
+            "group": "630970", 
+            "id": 59, 
+            "name": "Vue a\u00e9rienne de la prison de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 638398, 
+            "group": "630970", 
+            "id": 60, 
+            "name": "L'H\u00f4tel-Dieu. Cour des Orphelins\r\n"
+        }, 
+        {
+            "id_item": 631913, 
+            "group": "631481", 
+            "id": 61, 
+            "name": "Eunate"
+        }, 
+        {
+            "id_item": 639608, 
+            "group": "630970", 
+            "id": 62, 
+            "name": "Remparts de soutien "
+        }, 
+        {
+            "id_item": 640124, 
+            "group": "630970", 
+            "id": 63, 
+            "name": "abbaye Saint-Martin"
+        }, 
+        {
+            "id_item": 640125, 
+            "group": "630970", 
+            "id": 64, 
+            "name": "coll\u00e9giale Saint-Mellon"
+        }, 
+        {
+            "id_item": 640126, 
+            "group": "630970", 
+            "id": 65, 
+            "name": "prieur\u00e9 Saint-Pierre"
+        }, 
+        {
+            "id_item": 638485, 
+            "group": "630970", 
+            "id": 66, 
+            "name": "Planche pr\u00e9sentant des fers \u00e0 cheval mis au jour sur le site de la ZAC des Linandes \u00e0 Cergy\r\n"
+        }, 
+        {
+            "id_item": 639105, 
+            "group": "630970", 
+            "id": 67, 
+            "name": "\u00e9glise Saint-Maclou"
+        }, 
+        {
+            "id_item": 639106, 
+            "group": "630970", 
+            "id": 68, 
+            "name": "\u00e9glise Notre-Dame-de-Pontoise"
+        }, 
+        {
+            "id_item": 639107, 
+            "group": "630970", 
+            "id": 69, 
+            "name": "Coll\u00e8ge Chabanne"
+        }, 
+        {
+            "id_item": 639108, 
+            "group": "630970", 
+            "id": 70, 
+            "name": "Gare de Pontoise"
+        }, 
+        {
+            "id_item": 636042, 
+            "group": "-1", 
+            "id": 71, 
+            "name": "\u00e9glise San Salvador del Arenal"
+        }, 
+        {
+            "id_item": 636046, 
+            "group": "-1", 
+            "id": 72, 
+            "name": "Synagogue de Estella "
+        }, 
+        {
+            "id_item": 639119, 
+            "group": "630970", 
+            "id": 73, 
+            "name": "le pont de Pontoise"
+        }, 
+        {
+            "id_item": 638404, 
+            "group": "630970", 
+            "id": 74, 
+            "name": "Vue a\u00e9rienne de la caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 639122, 
+            "group": "630970", 
+            "id": 75, 
+            "name": "Place de la Harengerie"
+        }, 
+        {
+            "id_item": 636053, 
+            "group": "-1", 
+            "id": 76, 
+            "name": "Chapelle d'Eunate (monast\u00e8re)"
+        }, 
+        {
+            "id_item": 639428, 
+            "group": "630970", 
+            "id": 77, 
+            "name": "timbre"
+        }, 
+        {
+            "id_item": 639130, 
+            "group": "630970", 
+            "id": 78, 
+            "name": "Topographie"
+        }, 
+        {
+            "id_item": 638234, 
+            "group": "630970", 
+            "id": 79, 
+            "name": "Pont du Chemin de fer et vue sur Pontoise\r\n"
+        }, 
+        {
+            "id_item": 639135, 
+            "group": "630970", 
+            "id": 80, 
+            "name": "La pierre \u00e0 Pontoise"
+        }, 
+        {
+            "id_item": 638320, 
+            "group": "630970", 
+            "id": 81, 
+            "name": "Panorama nord de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 638214, 
+            "group": "630970", 
+            "id": 82, 
+            "name": "H\u00f4tel de Pontoise, caf\u00e9-restaurant tenu par Paul Gourgeois, place de la gare : prise de vue lors du 14 juillet \r\n"
+        }, 
+        {
+            "id_item": 631906, 
+            "group": "631481", 
+            "id": 83, 
+            "name": "Eunate"
+        }, 
+        {
+            "id_item": 631976, 
+            "group": "631481", 
+            "id": 84, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631977, 
+            "group": "631481", 
+            "id": 85, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631978, 
+            "group": "631481", 
+            "id": 86, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631980, 
+            "group": "631481", 
+            "id": 87, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631983, 
+            "group": "631481", 
+            "id": 88, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631984, 
+            "group": "631481", 
+            "id": 89, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 639153, 
+            "group": "630970", 
+            "id": 90, 
+            "name": "Caf\u00e9 Lecercle (place de la gare)"
+        }, 
+        {
+            "id_item": 631988, 
+            "group": "631481", 
+            "id": 91, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631989, 
+            "group": "631481", 
+            "id": 92, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 634557, 
+            "group": "-1", 
+            "id": 93, 
+            "name": "Nucleus de Burguete"
+        }, 
+        {
+            "id_item": 638240, 
+            "group": "630970", 
+            "id": 94, 
+            "name": "Place de la Gare et H\u00f4tel de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 632004, 
+            "group": "631481", 
+            "id": 95, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632005, 
+            "group": "631481", 
+            "id": 96, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632006, 
+            "group": "631481", 
+            "id": 97, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 640289, 
+            "group": "630970", 
+            "id": 98, 
+            "name": "Tribunal de Grande Instance de Pontoise"
+        }, 
+        {
+            "id_item": 632012, 
+            "group": "631481", 
+            "id": 99, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632013, 
+            "group": "631481", 
+            "id": 100, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632014, 
+            "group": "631481", 
+            "id": 101, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632015, 
+            "group": "631481", 
+            "id": 102, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 639184, 
+            "group": "630970", 
+            "id": 103, 
+            "name": "l'\u00eele du Pothuis"
+        }, 
+        {
+            "id_item": 639185, 
+            "group": "630970", 
+            "id": 104, 
+            "name": "les bateaux-lavoirs"
+        }, 
+        {
+            "id_item": 632018, 
+            "group": "631481", 
+            "id": 105, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 641830, 
+            "group": "641829", 
+            "id": 106, 
+            "name": "fond de carte de Mario, dessin de Christophe"
+        }, 
+        {
+            "id_item": 640206, 
+            "group": "630970", 
+            "id": 107, 
+            "name": "les abattoirs de Pontoise"
+        }, 
+        {
+            "id_item": 640378, 
+            "group": "630970", 
+            "id": 108, 
+            "name": "Prison de Pontoise"
+        }, 
+        {
+            "id_item": 638416, 
+            "group": "630970", 
+            "id": 109, 
+            "name": "Loges de la Place de la Harengerie. \r\n"
+        }, 
+        {
+            "id_item": 639202, 
+            "group": "630970", 
+            "id": 110, 
+            "name": "jardin de Pontoise"
+        }, 
+        {
+            "id_item": 635107, 
+            "group": "-1", 
+            "id": 111, 
+            "name": "Quartier de Burguete (paroisse)"
+        }, 
+        {
+            "id_item": 640294, 
+            "group": "630970", 
+            "id": 112, 
+            "name": "remparts de la ville"
+        }, 
+        {
+            "id_item": 633809, 
+            "group": "633397", 
+            "id": 113, 
+            "name": "Plan du cadastre de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 631932, 
+            "group": "631481", 
+            "id": 114, 
+            "name": "Eunate"
+        }, 
+        {
+            "id_item": 640747, 
+            "group": "630970", 
+            "id": 115, 
+            "name": "Porte d'Ennery"
+        }, 
+        {
+            "id_item": 632044, 
+            "group": "631481", 
+            "id": 116, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632045, 
+            "group": "631481", 
+            "id": 117, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631534, 
+            "group": "631481", 
+            "id": 118, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 631535, 
+            "group": "631481", 
+            "id": 119, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 632048, 
+            "group": "631481", 
+            "id": 120, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 632049, 
+            "group": "631481", 
+            "id": 121, 
+            "name": "Viana"
+        }, 
+        {
+            "id_item": 631538, 
+            "group": "631481", 
+            "id": 122, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 638505, 
+            "group": "-1", 
+            "id": 123, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise : le procession place du Martroy"
+        }, 
+        {
+            "id_item": 641101, 
+            "group": "630970", 
+            "id": 124, 
+            "name": "Agriculture"
+        }, 
+        {
+            "id_item": 631548, 
+            "group": "631481", 
+            "id": 125, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 638250, 
+            "group": "630970", 
+            "id": 126, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise. La Procession place du Martroy\r\n"
+        }, 
+        {
+            "id_item": 638207, 
+            "group": "630970", 
+            "id": 127, 
+            "name": "Vue g\u00e9n\u00e9rale de Pontoise en avion : centre ville, \u00e9glises Saint Maclou et Notre Dame, gare Oise et commune de Saint Ouen l'Aum\u00f4ne \r\n"
+        }, 
+        {
+            "id_item": 638212, 
+            "group": "630970", 
+            "id": 128, 
+            "name": "Un coin du vieux Pontoise : Place de la Harengerie\r\n"
+        }, 
+        {
+            "id_item": 631824, 
+            "group": "631481", 
+            "id": 129, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 638216, 
+            "group": "630970", 
+            "id": 130, 
+            "name": "H\u00f4tel de Pontoise Lecercle\r\n"
+        }, 
+        {
+            "id_item": 638218, 
+            "group": "630970", 
+            "id": 131, 
+            "name": "Panorama de Pontoise : prise de vue de Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 638220, 
+            "group": "630970", 
+            "id": 132, 
+            "name": "Bords de l'Oise en amont de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638222, 
+            "group": "630970", 
+            "id": 133, 
+            "name": "inauguration du Monument \"Patrie\" du sculpteur A. Carl\u00e8s : Discours de M. le Maire de Pontoise (28 novembre 1909)\r\n"
+        }, 
+        {
+            "id_item": 631567, 
+            "group": "631481", 
+            "id": 134, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631568, 
+            "group": "631481", 
+            "id": 135, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631569, 
+            "group": "631481", 
+            "id": 136, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638226, 
+            "group": "630970", 
+            "id": 137, 
+            "name": "Carte comm\u00e9morative sur l'inauguration du coll\u00e8ge de Pontoise (24 mai 1903) Photo du M. P. Lavoye, maire de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 631571, 
+            "group": "631481", 
+            "id": 138, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638228, 
+            "group": "630970", 
+            "id": 139, 
+            "name": "Magasin de Monsieur Habert, 35 rue de l'H\u00f4tel de ville, repr\u00e9sentant de la montre Omega \u00e0 Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638254, 
+            "group": "630970", 
+            "id": 140, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise. Place du Martroy\r\n"
+        }, 
+        {
+            "id_item": 638230, 
+            "group": "630970", 
+            "id": 141, 
+            "name": "La Mar\u00e9e\u00e0 Pontoise (Directeur-Fondateur : J. Grignon)\r\n"
+        }, 
+        {
+            "id_item": 634135, 
+            "group": "-1", 
+            "id": 142, 
+            "name": " \u00c9glise Saint Michel"
+        }, 
+        {
+            "id_item": 638232, 
+            "group": "630970", 
+            "id": 143, 
+            "name": "Entr\u00e9e du Jardin public lors de l'inauguration du monument du Souvenir Motif compos\u00e9s par Fernand Roger, architecte d\u00e9corateur, conservateur adjoint du Mus\u00e9e de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 639257, 
+            "group": "630970", 
+            "id": 144, 
+            "name": "blason de la ville de Pontoise"
+        }, 
+        {
+            "id_item": 639258, 
+            "group": "630970", 
+            "id": 145, 
+            "name": "Pierre Lavoye"
+        }, 
+        {
+            "id_item": 638511, 
+            "group": "-1", 
+            "id": 146, 
+            "name": "Panorama de Pontoise : prise de vue de Saint Ouen l'Aum\u00f4ne"
+        }, 
+        {
+            "id_item": 638236, 
+            "group": "630970", 
+            "id": 147, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise : le procession place du Martroy \r\n"
+        }, 
+        {
+            "id_item": 641821, 
+            "group": "-1", 
+            "id": 148, 
+            "name": "Carte sensible"
+        }, 
+        {
+            "id_item": 638238, 
+            "group": "630970", 
+            "id": 149, 
+            "name": "Pont routier provisoire en septembre 1940 et vue de Pontoise depuis Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 636704, 
+            "group": "-1", 
+            "id": 150, 
+            "name": "Monast\u00e8re de Santo Domingo"
+        }, 
+        {
+            "id_item": 634145, 
+            "group": "-1", 
+            "id": 151, 
+            "name": "\u00c9glise du Saint S\u00e9pulcre"
+        }, 
+        {
+            "id_item": 631586, 
+            "group": "631481", 
+            "id": 152, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631587, 
+            "group": "631481", 
+            "id": 153, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638244, 
+            "group": "630970", 
+            "id": 154, 
+            "name": "Eglise Notre Dame de Pontoise. Ext\u00e9rieur \r\n"
+        }, 
+        {
+            "id_item": 638246, 
+            "group": "630970", 
+            "id": 155, 
+            "name": "Les Bords de l'Oise\r\n"
+        }, 
+        {
+            "id_item": 638248, 
+            "group": "630970", 
+            "id": 156, 
+            "name": "Mus\u00e9e de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 639274, 
+            "group": "630970", 
+            "id": 157, 
+            "name": "La vente du poisson \u00e0 Pontoise"
+        }, 
+        {
+            "id_item": 638252, 
+            "group": "630970", 
+            "id": 158, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise. La Procession Place du Martroy\r\n"
+        }, 
+        {
+            "id_item": 631597, 
+            "group": "631481", 
+            "id": 159, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631598, 
+            "group": "631481", 
+            "id": 160, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638256, 
+            "group": "630970", 
+            "id": 161, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise. La Procession Place du Martroy \r\n"
+        }, 
+        {
+            "id_item": 631601, 
+            "group": "631481", 
+            "id": 162, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631602, 
+            "group": "631481", 
+            "id": 163, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638515, 
+            "group": "-1", 
+            "id": 164, 
+            "name": "Guerre 1870-1871"
+        }, 
+        {
+            "id_item": 631604, 
+            "group": "631481", 
+            "id": 165, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 636725, 
+            "group": "-1", 
+            "id": 166, 
+            "name": "\u00c9glise Santa Mar\u00eda Jus del Castillo"
+        }, 
+        {
+            "id_item": 638262, 
+            "group": "630970", 
+            "id": 167, 
+            "name": "Vue prise de Pontoise vers Saint Ouen l'Aum\u00f4ne \r\n"
+        }, 
+        {
+            "id_item": 639287, 
+            "group": "630970", 
+            "id": 168, 
+            "name": "le pont du chemin de fer de Pontoise"
+        }, 
+        {
+            "id_item": 638264, 
+            "group": "630970", 
+            "id": 169, 
+            "name": "En avion sur Pontoise. Vue g\u00e9n\u00e9rale de la Ville de Pontoise prise des bords de l'Oise. Au 1er plan la commune de Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 638260, 
+            "group": "630970", 
+            "id": 170, 
+            "name": "L'Oise s\u00e9parant Pontoise de Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 639242, 
+            "group": "630970", 
+            "id": 171, 
+            "name": "Carotte de tabac"
+        }, 
+        {
+            "id_item": 638268, 
+            "group": "630970", 
+            "id": 172, 
+            "name": "Pontoise. Panorama \r\n"
+        }, 
+        {
+            "id_item": 638270, 
+            "group": "630970", 
+            "id": 173, 
+            "name": "Pontoise. Vue g\u00e9n\u00e9rale\r\n"
+        }, 
+        {
+            "id_item": 638272, 
+            "group": "630970", 
+            "id": 174, 
+            "name": "H\u00f4tel de Pontoise Maison Lecercle\r\n"
+        }, 
+        {
+            "id_item": 638274, 
+            "group": "630970", 
+            "id": 175, 
+            "name": "Panorama de Pontoise, vue prise de Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 639300, 
+            "group": "630970", 
+            "id": 176, 
+            "name": "l'H\u00f4tel-Dieu"
+        }, 
+        {
+            "id_item": 638278, 
+            "group": "630970", 
+            "id": 177, 
+            "name": "L'Oise\u00e0 Pontoise\r\n"
+        }, 
+        {
+            "id_item": 638280, 
+            "group": "630970", 
+            "id": 178, 
+            "name": "Pontoise 1870 - 14 septembre, on fait sauter le pont de pierre ; 15 septembre, le pont du Chemin de fer ; 18 septembre, passage du corps d'arm\u00e9e du Gran-Duc de Mecklembourg sur le pont de bateaux jet\u00e9 en amont du pont de pierre \r\n"
+        }, 
+        {
+            "id_item": 638326, 
+            "group": "630970", 
+            "id": 179, 
+            "name": "Vue de Pontoise extraite d'un journal \r\n"
+        }, 
+        {
+            "id_item": 638282, 
+            "group": "630970", 
+            "id": 180, 
+            "name": "Saint Ouen l'Aum\u00f4ne. Le Pont de Fer de Saint Ouen \u00e0 Pontoise\r\n\r\n"
+        }, 
+        {
+            "id_item": 638434, 
+            "group": "630970", 
+            "id": 181, 
+            "name": "Pontoise en 1792 : reproduction de l'aquarelle de Louis Signy\r\n"
+        }, 
+        {
+            "id_item": 638286, 
+            "group": "630970", 
+            "id": 182, 
+            "name": "Saint Maclou de Pontoise : La Fa\u00e7ade - Les Portails et la Rosace flamboyante"
+        }, 
+        {
+            "id_item": 638447, 
+            "group": "630970", 
+            "id": 183, 
+            "name": "Vues g\u00e9n\u00e9rales de Pontoise prise du mont B\u00e9lien \r\n"
+        }, 
+        {
+            "id_item": 638288, 
+            "group": "630970", 
+            "id": 184, 
+            "name": "Place Notre Dame \u00e0 Pontoise\r\n"
+        }, 
+        {
+            "id_item": 638290, 
+            "group": "630970", 
+            "id": 185, 
+            "name": "Pontoise, le pont et Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 639203, 
+            "group": "630970", 
+            "id": 186, 
+            "name": "Monument \"Patrie\""
+        }, 
+        {
+            "id_item": 638292, 
+            "group": "630970", 
+            "id": 187, 
+            "name": "Pontoise, le pont et Saint Ouen l'Aum\u00f4ne\r\n"
+        }, 
+        {
+            "id_item": 638294, 
+            "group": "630970", 
+            "id": 188, 
+            "name": "Vue a\u00e9rienne du Centre hospitalier de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 631640, 
+            "group": "631481", 
+            "id": 189, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 638436, 
+            "group": "630970", 
+            "id": 190, 
+            "name": "Vue g\u00e9n\u00e9rale de Pontoise\u00e0 la fin du XVI\u00e8me si\u00e8cle : reproduction de l'eau forte de Claude Chastillon (1547-1616) \r\n"
+        }, 
+        {
+            "id_item": 631642, 
+            "group": "631481", 
+            "id": 191, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 631643, 
+            "group": "631481", 
+            "id": 192, 
+            "name": "Estella"
+        }, 
+        {
+            "id_item": 637276, 
+            "group": "-1", 
+            "id": 193, 
+            "name": "\u00c9glise San Pedro de Lizarra"
+        }, 
+        {
+            "id_item": 638266, 
+            "group": "630970", 
+            "id": 194, 
+            "name": "Pontoise. Vue panoramique\r\n"
+        }, 
+        {
+            "id_item": 638302, 
+            "group": "630970", 
+            "id": 195, 
+            "name": "Clocher de Notre Dame de Pontoise\r\n"
+        }, 
+        {
+            "id_item": 638304, 
+            "group": "630970", 
+            "id": 196, 
+            "name": "Vue g\u00e9n\u00e9rale de Saint Ouen l'Aum\u00f4ne prise de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638306, 
+            "group": "630970", 
+            "id": 197, 
+            "name": "Le Pont de Pontoise. Vue prise de Saint Ouen l'Aum\u00f4ne \r\n"
+        }, 
+        {
+            "id_item": 639770, 
+            "group": "630970", 
+            "id": 198, 
+            "name": "parvis de l'\u00e9glise Saint-Maclou"
+        }, 
+        {
+            "id_item": 638308, 
+            "group": "630970", 
+            "id": 199, 
+            "name": "Saint Ouen l'Aum\u00f4ne (vue prise de Pontoise) \r\n"
+        }, 
+        {
+            "id_item": 638310, 
+            "group": "630970", 
+            "id": 200, 
+            "name": "Le clocher de Saint Maclou et les toits de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638312, 
+            "group": "630970", 
+            "id": 201, 
+            "name": "L'\u00e9glise Notre Dame de Pontoise (d'apr\u00e8s une carte postale de 1942)\r\n"
+        }, 
+        {
+            "id_item": 638314, 
+            "group": "630970", 
+            "id": 202, 
+            "name": "Panorama sud de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638316, 
+            "group": "630970", 
+            "id": 203, 
+            "name": "Panorama de Pontoise vue du quartier Saint Martin \r\n"
+        }, 
+        {
+            "id_item": 638318, 
+            "group": "630970", 
+            "id": 204, 
+            "name": "Panorama de Pontoise vue du quartier Saint Martin \r\n"
+        }, 
+        {
+            "id_item": 638449, 
+            "group": "630970", 
+            "id": 205, 
+            "name": "Palais de justice : \u00e9tat des lieux avant d\u00e9molition et construction\r\n"
+        }, 
+        {
+            "id_item": 639344, 
+            "group": "630970", 
+            "id": 206, 
+            "name": "le pont provisoire de Pontoise"
+        }, 
+        {
+            "id_item": 638322, 
+            "group": "630970", 
+            "id": 207, 
+            "name": "Nouveau pont en fer de Pontoise : ligne de Dieppe par Argenteuil et Gisors - d'apr\u00e8s un dessin de M D'Hastrel + article incomplet sur la construction du pont \r\n"
+        }, 
+        {
+            "id_item": 638324, 
+            "group": "630970", 
+            "id": 208, 
+            "name": "Panorama de Pontoise : vue prise de l'ancien coll\u00e8ge rue Pierre Bubin\r\n"
+        }, 
+        {
+            "id_item": 638224, 
+            "group": "630970", 
+            "id": 209, 
+            "name": "F\u00eate annuelle des voeux de Pontoise : la procession place du Martroy \r\n"
+        }, 
+        {
+            "id_item": 638441, 
+            "group": "630970", 
+            "id": 210, 
+            "name": "Pontoise vue du Haut de l'Hermitage \r\n"
+        }, 
+        {
+            "id_item": 638328, 
+            "group": "630970", 
+            "id": 211, 
+            "name": "March\u00e9s et commerces pontoisiens : march\u00e9 place de l'H\u00f4tel de Ville \r\n"
+        }, 
+        {
+            "id_item": 635769, 
+            "group": "-1", 
+            "id": 212, 
+            "name": "Eneriz 64 (Eunate)"
+        }, 
+        {
+            "id_item": 638330, 
+            "group": "630970", 
+            "id": 213, 
+            "name": "Piscine de l'H\u00f4tel Dieu : destruction : \u00e9tat des lieux avant, pendant et apr\u00e8s \r\n"
+        }, 
+        {
+            "id_item": 638332, 
+            "group": "630970", 
+            "id": 214, 
+            "name": "Piscine de l'H\u00f4tel Dieu : destruction : \u00e9tat des lieux avant, pendant et apr\u00e8s\r\n"
+        }, 
+        {
+            "id_item": 638334, 
+            "group": "630970", 
+            "id": 215, 
+            "name": "Vues g\u00e9n\u00e9rales de Pontoise prise du mont B\u00e9lien \r\n"
+        }, 
+        {
+            "id_item": 641429, 
+            "group": "630970", 
+            "id": 216, 
+            "name": "Sch\u00e9ma interpr\u00e9tatif de Pontoise au XVIe si\u00e8cle\r\n"
+        }, 
+        {
+            "id_item": 638338, 
+            "group": "630970", 
+            "id": 217, 
+            "name": "Perspective de Pontoise d\u00e9di\u00e9e\u00e0 Monsieur l'Abb\u00e9 de l'Abbaye royale Saint Martin par lui en 1679\u00e0 Pierre de Monthiers, chevalier, seigneur de Saint Martin du Fay Mardolin et de Repenelle, lieutenant g\u00e9n\u00e9ral de Pontoise : reproduction du XIX\u00e8me si\u00e8cle (on y voit notamment le pont sur l'Oise) \r\n"
+        }, 
+        {
+            "id_item": 638443, 
+            "group": "630970", 
+            "id": 218, 
+            "name": "Bazar Pontoisien : Maison Beauvais\r\n"
+        }, 
+        {
+            "id_item": 638340, 
+            "group": "630970", 
+            "id": 219, 
+            "name": "Ville et ch\u00e2teau de Pontoise vers 1590-1615 : reproduction \r\n"
+        }, 
+        {
+            "id_item": 640389, 
+            "group": "630970", 
+            "id": 220, 
+            "name": "Banque de France achev\u00e9e en 1925"
+        }, 
+        {
+            "id_item": 638342, 
+            "group": "630970", 
+            "id": 221, 
+            "name": "Inondations de la Seine et de l'Oise : vue de la plaine de Pontoise prise du dessus d'Eragny, route de Conflans\u00e0 Pontoise : extrait de Monde illustr\u00e9 du 2 mars 1867\r\n"
+        }, 
+        {
+            "id_item": 638344, 
+            "group": "630970", 
+            "id": 222, 
+            "name": "Vue de la ville de Pontoise prise de la Plaine de Maubuisson dessin\u00e9e par Moreau Lain\u00e9 \r\n"
+        }, 
+        {
+            "id_item": 631532, 
+            "group": "631481", 
+            "id": 223, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 638346, 
+            "group": "630970", 
+            "id": 224, 
+            "name": "Profil de la ville de Pontoise : vue g\u00e9n\u00e9rale de Pontoise au XVII\u00e8me si\u00e8cle : Eau forte d'Isra\u00c3\u0192\u00c2\u00abl Silvestre (1621-1691)\r\n"
+        }, 
+        {
+            "id_item": 638348, 
+            "group": "630970", 
+            "id": 225, 
+            "name": "Vue g\u00e9n\u00e9rale des abattoirs de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 631533, 
+            "group": "631481", 
+            "id": 226, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 638352, 
+            "group": "630970", 
+            "id": 227, 
+            "name": "La Viosne \u00e0 Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638354, 
+            "group": "630970", 
+            "id": 228, 
+            "name": "Vue de Pontoise apr\u00e8s l'ex\u00e9cution de la rue imp\u00e9riale, projet\u00e9e. \r\n"
+        }, 
+        {
+            "id_item": 638356, 
+            "group": "630970", 
+            "id": 229, 
+            "name": "Quartier du Pothuis : r\u00e9novation il\u00f4t n\u00c3\u201a\u00c2\u00b01\r\n"
+        }, 
+        {
+            "id_item": 640238, 
+            "group": "630970", 
+            "id": 230, 
+            "name": "les quais du Pothuis"
+        }, 
+        {
+            "id_item": 638358, 
+            "group": "630970", 
+            "id": 231, 
+            "name": "R\u00e9habilitation de la falaise : reconnaissance compl\u00e9mentaire\r\n"
+        }, 
+        {
+            "id_item": 638360, 
+            "group": "630970", 
+            "id": 232, 
+            "name": "La rue S\u00e9r\u00e9 Depoin avant travaux\r\n"
+        }, 
+        {
+            "id_item": 638276, 
+            "group": "630970", 
+            "id": 233, 
+            "name": "L'Oise \u00e0 Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638362, 
+            "group": "630970", 
+            "id": 234, 
+            "name": "Ancien pont du chemin de fer\r\n"
+        }, 
+        {
+            "id_item": 637851, 
+            "group": "-1", 
+            "id": 235, 
+            "name": "barrio extramuros de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 638364, 
+            "group": "630970", 
+            "id": 236, 
+            "name": "L'ancienne piscine de l'H\u00f4tel Dieu tagg\u00e9e avant sa d\u00e9molition \r\n"
+        }, 
+        {
+            "id_item": 639390, 
+            "group": "630970", 
+            "id": 237, 
+            "name": "place du Petit Martroy"
+        }, 
+        {
+            "id_item": 639391, 
+            "group": "630970", 
+            "id": 238, 
+            "name": "place du Grand Martroy"
+        }, 
+        {
+            "id_item": 638410, 
+            "group": "630970", 
+            "id": 239, 
+            "name": "Plan de Pontoise : reproduction de l'original dress\u00e9 en 1523 avec appendice.\r\n"
+        }, 
+        {
+            "id_item": 638370, 
+            "group": "630970", 
+            "id": 240, 
+            "name": "Vues panoramiques de la ville\r\n"
+        }, 
+        {
+            "id_item": 638372, 
+            "group": "630970", 
+            "id": 241, 
+            "name": "Place de la Harengerie\r\n"
+        }, 
+        {
+            "id_item": 638374, 
+            "group": "630970", 
+            "id": 242, 
+            "name": "Vue g\u00e9n\u00e9rale de la ville prise de Saint Ouen l'Aum\u00f4ne \r\n"
+        }, 
+        {
+            "id_item": 631537, 
+            "group": "631481", 
+            "id": 243, 
+            "name": "Burguete"
+        }, 
+        {
+            "id_item": 638376, 
+            "group": "630970", 
+            "id": 244, 
+            "name": "Vue de Pontoise prise du Parc aux Charrettes \r\n"
+        }, 
+        {
+            "id_item": 638378, 
+            "group": "630970", 
+            "id": 245, 
+            "name": "vue g\u00e9n\u00e9rale de la ville : vue prise de Pontoise vers Saint Ouen l'Aum\u00f4ne (2 exemplaires) \r\n"
+        }, 
+        {
+            "id_item": 638380, 
+            "group": "630970", 
+            "id": 246, 
+            "name": "La place du Pont \r\n"
+        }, 
+        {
+            "id_item": 639918, 
+            "group": "630970", 
+            "id": 247, 
+            "name": "jeux"
+        }, 
+        {
+            "id_item": 638384, 
+            "group": "630970", 
+            "id": 248, 
+            "name": "Photos a\u00e9riennes\r\n"
+        }, 
+        {
+            "id_item": 638386, 
+            "group": "630970", 
+            "id": 249, 
+            "name": "la fontaine surmont\u00e9e du buste de Maria Deraisme, dans le quartier de l'Hermitage.\r\n"
+        }, 
+        {
+            "id_item": 638388, 
+            "group": "630970", 
+            "id": 250, 
+            "name": "La caserne Bossut\r\n"
+        }, 
+        {
+            "id_item": 638366, 
+            "group": "630970", 
+            "id": 251, 
+            "name": "Le Moulin Godet avant sa transformation en tribunal\r\n"
+        }, 
+        {
+            "id_item": 638390, 
+            "group": "630970", 
+            "id": 252, 
+            "name": "Les bateaux-lavoirs\r\n"
+        }, 
+        {
+            "id_item": 638392, 
+            "group": "630970", 
+            "id": 253, 
+            "name": "Rue du Haut de l'Ermitage, Habitation Souterraine\r\n"
+        }, 
+        {
+            "id_item": 639186, 
+            "group": "630970", 
+            "id": 254, 
+            "name": "l'Oise"
+        }, 
+        {
+            "id_item": 638394, 
+            "group": "630970", 
+            "id": 255, 
+            "name": "Quai du Pothuis,l'\u00eele\r\n"
+        }, 
+        {
+            "id_item": 638445, 
+            "group": "630970", 
+            "id": 256, 
+            "name": "L'Hermitage : Les Mathurins \r\n"
+        }, 
+        {
+            "id_item": 638396, 
+            "group": "630970", 
+            "id": 257, 
+            "name": "L'H\u00f4tel-Dieu, vue prise du ch\u00e2teau\r\n"
+        }, 
+        {
+            "id_item": 639422, 
+            "group": "630970", 
+            "id": 258, 
+            "name": "mus\u00e9e Tavet-Delacour"
+        }, 
+        {
+            "id_item": 633792, 
+            "group": "633397", 
+            "id": 259, 
+            "name": "Plan du cadastre de Burguete"
+        }, 
+        {
+            "id_item": 638402, 
+            "group": "630970", 
+            "id": 260, 
+            "name": "Vue a\u00e9rienne de l'\u00e9glise Saint-Maclou\r\n"
+        }, 
+        {
+            "id_item": 633795, 
+            "group": "633397", 
+            "id": 261, 
+            "name": "Plan du cadastre de Viana"
+        }, 
+        {
+            "id_item": 633796, 
+            "group": "633397", 
+            "id": 262, 
+            "name": "Plan du cadastre de Viana"
+        }, 
+        {
+            "id_item": 633797, 
+            "group": "633397", 
+            "id": 263, 
+            "name": "Plan du cadastre de Viana"
+        }, 
+        {
+            "id_item": 633798, 
+            "group": "633397", 
+            "id": 264, 
+            "name": "Plan du cadastre de Viana"
+        }, 
+        {
+            "id_item": 638408, 
+            "group": "630970", 
+            "id": 265, 
+            "name": "Ancien plan de Pontoise : reproduction de l'original du XVI\u00e8me conserv\u00e9 \u00e0 la Biblioth\u00e8que Nationale.\r\n"
+        }, 
+        {
+            "id_item": 639434, 
+            "group": "630970", 
+            "id": 266, 
+            "name": "oblit\u00e9ration"
+        }, 
+        {
+            "id_item": 638258, 
+            "group": "630970", 
+            "id": 267, 
+            "name": "La Place - La Gare - L'H\u00f4tel de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638412, 
+            "group": "630970", 
+            "id": 268, 
+            "name": "Plan des fortifications des bords de l'Oise.\r\n"
+        }, 
+        {
+            "id_item": 633806, 
+            "group": "633397", 
+            "id": 269, 
+            "name": "Plan du cadastre de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 633807, 
+            "group": "633397", 
+            "id": 270, 
+            "name": "Plan du cadastre de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 633808, 
+            "group": "633397", 
+            "id": 271, 
+            "name": "Plan du cadastre de Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 635345, 
+            "group": "-1", 
+            "id": 272, 
+            "name": "Quartier de l\u2019\u00e9glise de Saint Nicolas de Bari"
+        }, 
+        {
+            "id_item": 638418, 
+            "group": "630970", 
+            "id": 273, 
+            "name": "Plan de l'\u00e9glise Notre Dame et du cimeti\u00e8re, fontaine, jardins du presbyt\u00e8re, rues et place alentour \r\n"
+        }, 
+        {
+            "id_item": 638420, 
+            "group": "630970", 
+            "id": 274, 
+            "name": "Le pont de Pontoise en 1837 \r\n"
+        }, 
+        {
+            "id_item": 640334, 
+            "group": "630970", 
+            "id": 275, 
+            "name": "coll\u00e8ge du Parc aux charrettes"
+        }, 
+        {
+            "id_item": 638422, 
+            "group": "630970", 
+            "id": 276, 
+            "name": "F\u00eate de Pontoise : reconstitution d'une porte d'entr\u00e9e m\u00e9di\u00e9vale\r\n"
+        }, 
+        {
+            "id_item": 638424, 
+            "group": "630970", 
+            "id": 277, 
+            "name": "Un coin de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 639145, 
+            "group": "630970", 
+            "id": 278, 
+            "name": "Commerces"
+        }, 
+        {
+            "id_item": 638426, 
+            "group": "630970", 
+            "id": 279, 
+            "name": "Un coin de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638428, 
+            "group": "630970", 
+            "id": 280, 
+            "name": "Un coin de Pontoise \r\n"
+        }, 
+        {
+            "id_item": 638430, 
+            "group": "630970", 
+            "id": 281, 
+            "name": "Vestiges de Remparts de la porte du Chapelet rue de la Coutellerie\r\n"
+        }, 
+        {
+            "id_item": 638432, 
+            "group": "630970", 
+            "id": 282, 
+            "name": "Pontoise en 1541 (extrait du plan de la for\u00eat de Thelle - chartrier de la Roche-Guyon)\r\n"
+        }, 
+        {
+            "id_item": 633825, 
+            "group": "633397", 
+            "id": 283, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 633826, 
+            "group": "633397", 
+            "id": 284, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 633827, 
+            "group": "633397", 
+            "id": 285, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 639972, 
+            "group": "630970", 
+            "id": 286, 
+            "name": "l'h\u00f4tel du Grand Cerf"
+        }, 
+        {
+            "id_item": 633829, 
+            "group": "633397", 
+            "id": 287, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 633830, 
+            "group": "633397", 
+            "id": 288, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 633831, 
+            "group": "633397", 
+            "id": 289, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 631784, 
+            "group": "631481", 
+            "id": 290, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 639228, 
+            "group": "630970", 
+            "id": 291, 
+            "name": "F\u00eate annuelle des Voeux de Pontoise"
+        }, 
+        {
+            "id_item": 638242, 
+            "group": "630970", 
+            "id": 292, 
+            "name": "En avion sur Pontoise : Les places du Petit et du Grand Martroy et l'Eglise Saint Maclou\r\n"
+        }, 
+        {
+            "id_item": 631789, 
+            "group": "631481", 
+            "id": 293, 
+            "name": "Sang\u00fcesa"
+        }, 
+        {
+            "id_item": 633839, 
+            "group": "633397", 
+            "id": 294, 
+            "name": "Orthophoto de Viana"
+        }, 
+        {
+            "id_item": 633840, 
+            "group": "633397", 
+            "id": 295, 
+            "name": "Orthophoto de Burguete"
+        }, 
+        {
+            "id_item": 633841, 
+            "group": "633397", 
+            "id": 296, 
+            "name": "Orthophoto de Burguete"
+        }, 
+        {
+            "id_item": 641844, 
+            "group": "641829", 
+            "id": 297, 
+            "name": "Religieux"
+        }, 
+        {
+            "id_item": 638451, 
+            "group": "630970", 
+            "id": 298, 
+            "name": "Les jardins ouvriers des Larris\r\n"
+        }, 
+        {
+            "id_item": 638481, 
+            "group": "630970", 
+            "id": 299, 
+            "name": "photographie d'une fouille de s\u00e9pulture sur le site du Grand Martroy\r\n"
+        }, 
+        {
+            "id_item": 633845, 
+            "group": "633397", 
+            "id": 300, 
+            "name": "Plan parcelaire de Burguete"
+        }, 
+        {
+            "id_item": 633847, 
+            "group": "633397", 
+            "id": 301, 
+            "name": "Plan du cadastre de Estella"
+        }, 
+        {
+            "id_item": 639146, 
+            "group": "630970", 
+            "id": 302, 
+            "name": "Circuler \u00e0 Pontoise"
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 67, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 1, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 3, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 4, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 5, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 6, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 0, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 3, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 4, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 5, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 6, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "linking", 
+            "target": 106, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 67, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "linking", 
+            "target": 4, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 6, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 22, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 5, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 5, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 6, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 124, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "highlighting", 
+            "target": 6, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 6, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 6, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 6, 
+            "motivation": "highlighting", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 7, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 7, 
+            "motivation": "highlighting", 
+            "target": 198, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "linking", 
+            "target": 42, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 8, 
+            "motivation": "linking", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 123, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 126, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 158, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 140, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 161, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 299, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 9, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "linking", 
+            "target": 259, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 11, 
+            "motivation": "linking", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 11, 
+            "motivation": "linking", 
+            "target": 11, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 12, 
+            "motivation": "highlighting", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "highlighting", 
+            "target": 67, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "highlighting", 
+            "target": 227, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "highlighting", 
+            "target": 268, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 69, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 176, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 73, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 168, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 62, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 113, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 270, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 269, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 223, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 118, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 243, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 212, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 125, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "linking", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 262, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 116, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 153, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 243, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 162, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 163, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 92, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 31, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 35, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 262, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 263, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 264, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 102, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 113, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 105, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 189, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 284, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 285, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 287, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 288, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 289, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 223, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 118, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "linking", 
+            "target": 125, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 223, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 243, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "linking", 
+            "target": 212, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 21, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 21, 
+            "motivation": "highlighting", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "highlighting", 
+            "target": 276, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 23, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 24, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 25, 
+            "motivation": "highlighting", 
+            "target": 211, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 153, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 136, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 159, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 160, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 135, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 162, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 28, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 28, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 28, 
+            "motivation": "highlighting", 
+            "target": 190, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 28, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 29, 
+            "motivation": "highlighting", 
+            "target": 62, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 29, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 29, 
+            "motivation": "highlighting", 
+            "target": 231, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 29, 
+            "motivation": "highlighting", 
+            "target": 73, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 30, 
+            "motivation": "highlighting", 
+            "target": 222, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 30, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 30, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 31, 
+            "motivation": "linking", 
+            "target": 53, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 32, 
+            "motivation": "linking", 
+            "target": 53, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 33, 
+            "motivation": "highlighting", 
+            "target": 236, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 33, 
+            "motivation": "highlighting", 
+            "target": 213, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 33, 
+            "motivation": "highlighting", 
+            "target": 214, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 69, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 176, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 73, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 104, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 34, 
+            "motivation": "highlighting", 
+            "target": 77, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 35, 
+            "motivation": "linking", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 35, 
+            "motivation": "linking", 
+            "target": 53, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 35, 
+            "motivation": "linking", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 35, 
+            "motivation": "linking", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 35, 
+            "motivation": "linking", 
+            "target": 235, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 36, 
+            "motivation": "linking", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 36, 
+            "motivation": "linking", 
+            "target": 53, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 36, 
+            "motivation": "linking", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 36, 
+            "motivation": "linking", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 37, 
+            "motivation": "highlighting", 
+            "target": 174, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 37, 
+            "motivation": "highlighting", 
+            "target": 82, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 37, 
+            "motivation": "highlighting", 
+            "target": 228, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 37, 
+            "motivation": "highlighting", 
+            "target": 267, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 37, 
+            "motivation": "highlighting", 
+            "target": 232, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 38, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 38, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 38, 
+            "motivation": "linking", 
+            "target": 269, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 39, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 39, 
+            "motivation": "linking", 
+            "target": 113, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 40, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 40, 
+            "motivation": "linking", 
+            "target": 270, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 41, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 41, 
+            "motivation": "linking", 
+            "target": 129, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 41, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 42, 
+            "motivation": "linking", 
+            "target": 271, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 42, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 42, 
+            "motivation": "linking", 
+            "target": 269, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 43, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 43, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 44, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 44, 
+            "motivation": "linking", 
+            "target": 269, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 45, 
+            "motivation": "highlighting", 
+            "target": 74, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 45, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 196, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 197, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 199, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 245, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 185, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 187, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 167, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 46, 
+            "motivation": "highlighting", 
+            "target": 170, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 261, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 263, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 84, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 47, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 263, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 99, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 121, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 100, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 92, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 48, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 262, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 116, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 105, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 49, 
+            "motivation": "linking", 
+            "target": 102, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 263, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 105, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 92, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 50, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 92, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 51, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 52, 
+            "motivation": "highlighting", 
+            "target": 253, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 52, 
+            "motivation": "highlighting", 
+            "target": 298, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 53, 
+            "motivation": "linking", 
+            "target": 290, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 53, 
+            "motivation": "linking", 
+            "target": 293, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 53, 
+            "motivation": "linking", 
+            "target": 269, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 53, 
+            "motivation": "linking", 
+            "target": 113, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 89, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 262, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 97, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 86, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 101, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 102, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 105, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 54, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 95, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 96, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 264, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 85, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 87, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 117, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 294, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 120, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 91, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 55, 
+            "motivation": "linking", 
+            "target": 88, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 56, 
+            "motivation": "linking", 
+            "target": 83, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 57, 
+            "motivation": "highlighting", 
+            "target": 188, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 58, 
+            "motivation": "linking", 
+            "target": 283, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 58, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 59, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 59, 
+            "motivation": "highlighting", 
+            "target": 98, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 59, 
+            "motivation": "highlighting", 
+            "target": 137, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 59, 
+            "motivation": "highlighting", 
+            "target": 69, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 59, 
+            "motivation": "highlighting", 
+            "target": 108, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 60, 
+            "motivation": "highlighting", 
+            "target": 176, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 60, 
+            "motivation": "highlighting", 
+            "target": 236, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 60, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 60, 
+            "motivation": "highlighting", 
+            "target": 214, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 60, 
+            "motivation": "highlighting", 
+            "target": 213, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 61, 
+            "motivation": "linking", 
+            "target": 83, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 175, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 242, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 246, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 207, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 214, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 62, 
+            "motivation": "highlighting", 
+            "target": 149, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 63, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 63, 
+            "motivation": "highlighting", 
+            "target": 219, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 63, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 64, 
+            "motivation": "highlighting", 
+            "target": 190, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 64, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 64, 
+            "motivation": "highlighting", 
+            "target": 219, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 64, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 219, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 222, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 224, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 190, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 65, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 66, 
+            "motivation": "highlighting", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 219, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 221, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 224, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "identifying", 
+            "target": 209, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 228, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "describing", 
+            "target": 198, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 147, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 244, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 126, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 158, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 140, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 161, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 194, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 172, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 240, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 182, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 277, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 279, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 280, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 190, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 200, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 203, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 204, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 183, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 81, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 207, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "identifying", 
+            "target": 208, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 179, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 67, 
+            "motivation": "highlighting", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 227, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 154, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 201, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 202, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 273, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 204, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 184, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 228, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 173, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 215, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "highlighting", 
+            "target": 195, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 68, 
+            "motivation": "locating", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 175, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 180, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 137, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 79, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 69, 
+            "motivation": "highlighting", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 94, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 130, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 228, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 267, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 70, 
+            "motivation": "highlighting", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 71, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 72, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 221, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 222, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 131, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 79, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 149, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 242, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 246, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 170, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 167, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 224, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 175, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 233, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 177, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 178, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 180, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 268, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 185, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 187, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 196, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 197, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 199, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 214, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 73, 
+            "motivation": "highlighting", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 74, 
+            "motivation": "highlighting", 
+            "target": 247, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 74, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 75, 
+            "motivation": "highlighting", 
+            "target": 109, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 75, 
+            "motivation": "highlighting", 
+            "target": 241, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 75, 
+            "motivation": "highlighting", 
+            "target": 128, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 76, 
+            "motivation": "linking", 
+            "target": 212, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 76, 
+            "motivation": "linking", 
+            "target": 114, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 174, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 197, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 277, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 156, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 126, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 158, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 161, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 253, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 249, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 170, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 252, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 194, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 77, 
+            "motivation": "highlighting", 
+            "target": 195, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 78, 
+            "motivation": "highlighting", 
+            "target": 277, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 78, 
+            "motivation": "highlighting", 
+            "target": 241, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 78, 
+            "motivation": "highlighting", 
+            "target": 279, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 78, 
+            "motivation": "describing", 
+            "target": 128, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 79, 
+            "motivation": "identifying", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 79, 
+            "motivation": "highlighting", 
+            "target": 168, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 79, 
+            "motivation": "highlighting", 
+            "target": 176, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 80, 
+            "motivation": "highlighting", 
+            "target": 128, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 82, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 82, 
+            "motivation": "identifying", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 82, 
+            "motivation": "highlighting", 
+            "target": 267, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 82, 
+            "motivation": "highlighting", 
+            "target": 90, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 90, 
+            "motivation": "highlighting", 
+            "target": 130, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 90, 
+            "motivation": "highlighting", 
+            "target": 94, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 90, 
+            "motivation": "highlighting", 
+            "target": 267, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 90, 
+            "motivation": "highlighting", 
+            "target": 174, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 259, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 223, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 226, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 118, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 243, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 93, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 94, 
+            "motivation": "highlighting", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 94, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 98, 
+            "motivation": "highlighting", 
+            "target": 205, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 98, 
+            "motivation": "highlighting", 
+            "target": 240, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 217, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 233, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 155, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 177, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 222, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 131, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 228, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 240, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 185, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 187, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 252, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 103, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 175, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 233, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 155, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 177, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 242, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 180, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 104, 
+            "motivation": "identifying", 
+            "target": 131, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 106, 
+            "motivation": "describing", 
+            "target": 297, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 106, 
+            "motivation": "linking", 
+            "target": 148, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 107, 
+            "motivation": "highlighting", 
+            "target": 225, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 108, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 109, 
+            "motivation": "highlighting", 
+            "target": 128, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 109, 
+            "motivation": "highlighting", 
+            "target": 241, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 109, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 133, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 183, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 169, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 208, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 143, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 172, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 173, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 110, 
+            "motivation": "highlighting", 
+            "target": 127, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 259, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 296, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 223, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 118, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 119, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 295, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 243, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 122, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 300, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 111, 
+            "motivation": "linking", 
+            "target": 125, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 240, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 268, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 205, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 276, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 280, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 112, 
+            "motivation": "highlighting", 
+            "target": 281, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 115, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 115, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 115, 
+            "motivation": "highlighting", 
+            "target": 216, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 115, 
+            "motivation": "highlighting", 
+            "target": 276, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 118, 
+            "motivation": "linking", 
+            "target": 272, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 123, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 124, 
+            "motivation": "highlighting", 
+            "target": 210, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 124, 
+            "motivation": "highlighting", 
+            "target": 256, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 125, 
+            "motivation": "linking", 
+            "target": 272, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 171, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 126, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 127, 
+            "motivation": "locating", 
+            "target": 201, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 127, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 127, 
+            "motivation": "highlighting", 
+            "target": 267, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 127, 
+            "motivation": "locating", 
+            "target": 195, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 128, 
+            "motivation": "highlighting", 
+            "target": 241, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 130, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 131, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 132, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 133, 
+            "motivation": "highlighting", 
+            "target": 186, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 134, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 136, 
+            "motivation": "linking", 
+            "target": 151, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 136, 
+            "motivation": "linking", 
+            "target": 142, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 137, 
+            "motivation": "highlighting", 
+            "target": 144, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 137, 
+            "motivation": "highlighting", 
+            "target": 145, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 137, 
+            "motivation": "highlighting", 
+            "target": 250, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 138, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 139, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 140, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 140, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 140, 
+            "motivation": "highlighting", 
+            "target": 171, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 140, 
+            "motivation": "highlighting", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 140, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 141, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 141, 
+            "motivation": "highlighting", 
+            "target": 157, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 142, 
+            "motivation": "linking", 
+            "target": 162, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 142, 
+            "motivation": "linking", 
+            "target": 159, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 142, 
+            "motivation": "linking", 
+            "target": 160, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 142, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 146, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 147, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 147, 
+            "motivation": "highlighting", 
+            "target": 171, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 147, 
+            "motivation": "highlighting", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 149, 
+            "motivation": "highlighting", 
+            "target": 206, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 149, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 150, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 151, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 152, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 154, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 155, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 156, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 156, 
+            "motivation": "highlighting", 
+            "target": 258, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 171, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 158, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 161, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 161, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 161, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 161, 
+            "motivation": "highlighting", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 161, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 164, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 165, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 166, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 167, 
+            "motivation": "highlighting", 
+            "target": 302, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 168, 
+            "motivation": "highlighting", 
+            "target": 213, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 168, 
+            "motivation": "highlighting", 
+            "target": 178, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 168, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 168, 
+            "motivation": "highlighting", 
+            "target": 207, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 168, 
+            "motivation": "highlighting", 
+            "target": 234, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 170, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 170, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 171, 
+            "motivation": "highlighting", 
+            "target": 209, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "highlighting", 
+            "target": 213, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "highlighting", 
+            "target": 181, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "highlighting", 
+            "target": 242, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "identifying", 
+            "target": 207, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 176, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 177, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 180, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 181, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 181, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 182, 
+            "motivation": "highlighting", 
+            "target": 198, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 182, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 184, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 185, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 185, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 187, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 190, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 191, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 192, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 193, 
+            "motivation": "linking", 
+            "target": 301, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 194, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 195, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 195, 
+            "motivation": "highlighting", 
+            "target": 247, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 196, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 197, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 198, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 198, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 199, 
+            "motivation": "highlighting", 
+            "target": 286, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 199, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 201, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 207, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 207, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 209, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 209, 
+            "motivation": "identifying", 
+            "target": 291, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 210, 
+            "motivation": "linking", 
+            "target": 249, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 210, 
+            "motivation": "linking", 
+            "target": 256, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 211, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 211, 
+            "motivation": "highlighting", 
+            "target": 238, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 213, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 213, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 214, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 214, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 216, 
+            "motivation": "highlighting", 
+            "target": 227, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 216, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 217, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 218, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 219, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 220, 
+            "motivation": "highlighting", 
+            "target": 248, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 221, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 222, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 224, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 226, 
+            "motivation": "linking", 
+            "target": 272, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 227, 
+            "motivation": "highlighting", 
+            "target": 268, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 229, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 229, 
+            "motivation": "highlighting", 
+            "target": 252, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 229, 
+            "motivation": "highlighting", 
+            "target": 230, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 230, 
+            "motivation": "highlighting", 
+            "target": 240, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 230, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 230, 
+            "motivation": "highlighting", 
+            "target": 252, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 232, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 233, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 234, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 234, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 236, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 236, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 237, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 237, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 237, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 238, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 238, 
+            "motivation": "highlighting", 
+            "target": 260, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 238, 
+            "motivation": "highlighting", 
+            "target": 299, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 238, 
+            "motivation": "highlighting", 
+            "target": 239, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 239, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 242, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 242, 
+            "motivation": "highlighting", 
+            "target": 252, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 243, 
+            "motivation": "linking", 
+            "target": 272, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 244, 
+            "motivation": "highlighting", 
+            "target": 275, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 245, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 245, 
+            "motivation": "highlighting", 
+            "target": 286, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 246, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 247, 
+            "motivation": "highlighting", 
+            "target": 251, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 249, 
+            "motivation": "highlighting", 
+            "target": 278, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 249, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 249, 
+            "motivation": "linking", 
+            "target": 256, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 250, 
+            "motivation": "highlighting", 
+            "target": 254, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 252, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 252, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 253, 
+            "motivation": "highlighting", 
+            "target": 266, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 255, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 257, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 268, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 254, 
+            "motivation": "highlighting", 
+            "target": 274, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 255, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 255, 
+            "motivation": "highlighting", 
+            "target": 265, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 260, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 260, 
+            "motivation": "highlighting", 
+            "target": 299, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 265, 
+            "motivation": "highlighting", 
+            "target": 276, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 265, 
+            "motivation": "highlighting", 
+            "target": 281, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 266, 
+            "motivation": "highlighting", 
+            "target": 277, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 273, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 276, 
+            "motivation": "highlighting", 
+            "target": 286, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 277, 
+            "motivation": "highlighting", 
+            "target": 279, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 277, 
+            "motivation": "linking", 
+            "target": 280, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 278, 
+            "motivation": "highlighting", 
+            "target": 292, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 279, 
+            "motivation": "highlighting", 
+            "target": 279, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 279, 
+            "motivation": "linking", 
+            "target": 280, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 280, 
+            "motivation": "linking", 
+            "target": 280, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 280, 
+            "motivation": "highlighting", 
+            "target": 281, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 281, 
+            "motivation": "highlighting", 
+            "target": 282, 
+            "weight": 1.0
+        }
+    ]
+}

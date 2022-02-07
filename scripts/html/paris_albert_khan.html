@@ -1,0 +1,186 @@
+<div class="column">&nbsp;</div>
+<link crossorigin="" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" rel="stylesheet" /><!-- Il faut absolument mettre la référence à la biliothèque leaflet APRES sa feuille de style --><script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.Default.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.css" rel="stylesheet" type="text/css" /><script src="https://unpkg.com/leaflet.markercluster@1.0.4/dist/leaflet.markercluster.js"></script><!-- Load Clustered Feature Layer from CDN --><!-- Une feuille de style éventuel
+   <link rel="stylesheet" href="style.css">
+--><!-- Style permettant l'affichage plein écran de la carte peut importe la résolution--><!-- adaptation de la carte à l'écran-->
+<style type="text/css">body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #carte {
+        height: 500px;
+        width: 1300px;
+    }
+</style>
+<style type="text/css">.cluster {
+        background: #3498db;
+        border-radius: 50%;
+        text-align: right;
+        color: white;
+        font-weight: 700;
+        border: 1px solid #3498db;
+        font-family: monospace;
+    }
+
+    .cluster:before {
+        content: ' ';
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        top: 1px;
+        left: 1px;
+        right: 1px;
+        bottom: 1px;
+        border: 1px solid white;
+    }
+
+    .digits-1 {
+        font-size: 14px;
+        height: 28px;
+        width: 28px;
+        line-height: 28px;
+        margin-top: -14px;
+        margin-left: -14px;
+    }
+
+    .digits-2 {
+        font-size: 16px;
+        height: 34px;
+        width: 34px;
+        line-height: 35px;
+        margin-top: -17px;
+        margin-left: -17px;
+    }
+
+    .digits-2:before {
+        border-width: 2px;
+    }
+
+
+
+
+    .digits-3 {
+        font-size: 18px;
+        height: 48px;
+        width: 47px;
+        line-height: 47px;
+        border-width: 3px;
+        margin-top: -24px;
+        margin-left: -24px;
+    }
+
+    .digits-3:before {
+        border-width: 3px;
+    }
+
+    .digits-4 {
+        font-size: 18px;
+        height: 58px;
+        width: 58px;
+        line-height: 57px;
+        border-width: 4px;
+        margin-top: -29px;
+        margin-left: -29px;
+    }
+
+    .digits-4:before {
+        border-width: 4px;
+    }
+</style>
+<!-- Le conteneur de notre carte -->
+<div id="carte">&nbsp;</div>
+<!-- script de diffusion de la carte --><script>
+
+
+    var fond1 = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }),
+        fond2 = L.tileLayer('http://c.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        });
+
+
+    var carte = L.map('carte', {
+        center: [48.853, 2.35],
+        zoom: 12,
+        layers: [fond1, fond2]
+    });
+
+	//carte.setView([48, 2], 3);
+
+	var wmsLayer1 = L.tileLayer.wms('http://psig.huma-num.fr/geoserver/Front_end/wms?', {
+    	layers: 'Front_end:points_paris_adlp',
+	transparent: true,
+	format: 'image/png'
+	}).addTo(carte);
+	
+	/*
+	var wmsLayer2 = L.tileLayer.wms('http://psig.huma-num.fr/geoserver/psig/wms?', {
+    	layers: 'psig:shape_all_geom_omeka_points_pontoise',
+	transparent: true,
+	format: 'image/png'
+	}).addTo(carte);*/
+
+       var baseLayers = {
+            "OSM": fond1,
+            "Elevation": fond2,
+        };
+
+		var overlayMaps={
+			"Photographie":wmsLayer1
+			}
+
+        L.control.layers(baseLayers, overlayMaps).addTo(carte);	
+
+ms_url="http://psig.huma-num.fr/geoserver/Front_end/wms?";
+carte.addEventListener('click', Identify);
+function Identify(e)
+{
+    // set parameters needed for GetFeatureInfo WMS request
+    var BBOX = carte.getBounds().toBBoxString();
+    var WIDTH = carte.getSize().x;
+    var HEIGHT = carte.getSize().y;
+    var X = parseInt(carte.layerPointToContainerPoint(e.layerPoint).x,10);
+     var Y = parseInt(carte.layerPointToContainerPoint(e.layerPoint).y,10);
+     // compose the URL for the request
+    var URL = ms_url + 'SERVICE=WMS&VERSION=1.1.0&REQUEST=GetFeatureInfo&LAYERS=Front_end:points_paris_adlp&QUERY_LAYERS=Front_end:points_paris_adlp&BBOX='+BBOX+'&FEATURE_COUNT=1&HEIGHT='+HEIGHT+'&WIDTH='+WIDTH+'&INFO_FORMAT=application%2Fjson&SRS=EPSG%3A4326&X='+X+'&Y='+Y;
+	console.log(URL)
+
+
+    //send the asynchronous HTTP request using jQuery $.ajax
+    $.ajax({
+        url: URL,
+        dataType: "html",
+        type: "GET",
+        success: function(data)
+        {
+            var popup = new L.Popup
+            ({
+                maxWidth: 300
+            });
+
+	    //var jsontest = '{"result":true,"count":1}',
+    	    //obj = JSON.parse(jsontest);
+
+
+		console.log(data);
+	    var json = JSON.parse(data);
+	    var name_item = json["features"][0]["properties"]["name_item"]
+	    var media_url = json["features"][0]["properties"]["url_media_"]
+		var url_item = json["features"][0]["properties"]["url_item"]
+	    //alert(json["features"][0]["properties"]["name_item"])
+	    //alert(json["features"][0]["properties"]["url_media_j"])
+	    console.log(json);
+            popup.setContent(name_item + " " + media_url);
+	    popup.setContent('<img src="' + media_url + '" style="width:150px; height:150px;"</img> <br> <b>'+ name_item +'</b> <br> <a href="'+url_item+'">voir ce document</a>');
+	    console.log(url_item);
+            popup.setLatLng(e.latlng);
+            carte.openPopup(popup);
+        }
+    });
+}
+</script>

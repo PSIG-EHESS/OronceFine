@@ -1,0 +1,540 @@
+{
+    "nodes": [
+        {
+            "id_item": 641537, 
+            "group": "1", 
+            "id": 0, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641540, 
+            "group": "1", 
+            "id": 1, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641543, 
+            "group": "1", 
+            "id": 2, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641546, 
+            "group": "1", 
+            "id": 3, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 630999, 
+            "group": "0", 
+            "id": 4, 
+            "name": "Carte de l'Afrique au 1:1 000 000e : Alexandria - Tobruch, 1945, H.I. 35"
+        }, 
+        {
+            "id_item": 641549, 
+            "group": "1", 
+            "id": 5, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641552, 
+            "group": "1", 
+            "id": 6, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641941, 
+            "group": "1", 
+            "id": 7, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641598, 
+            "group": "1", 
+            "id": 8, 
+            "name": "<div class=\"annotation-body-rdf-value\">salum actuel</div><div class=\"annotation-target-cartography-uncertainty\"><i>Uncertainty:</i> Known</div><div class=\"annotation-metadata\"><div class=\"annotation-caption\"><a class=\"resource-link\" href=\"/omeka-s/admin/annotation/641598\"><span class=\"resource-name\">[#641598]</span></a><ul class=\"actions\"><li><span><a class=\"o-icon-external\" href=\"/omeka-s/admin/annotation/641598\" target=\"_blank\" title=\"Show annotation\" aria-label=\"Show annotation\"></a></span></li></ul></div><div class=\"annotation-owner\"></div><div class=\"annotation-created\"></div></div>"
+        }, 
+        {
+            "id_item": 631005, 
+            "group": "0", 
+            "id": 9, 
+            "name": "Carte de l'Afrique au 1:1 000 000e : Kaouar, Bilma, 1961, NE 33, n\u00b02663"
+        }, 
+        {
+            "id_item": 682411, 
+            "group": "2", 
+            "id": 10, 
+            "name": "Couverture foresti\u00e8re"
+        }, 
+        {
+            "id_item": 699439, 
+            "group": "1", 
+            "id": 11, 
+            "name": "test"
+        }, 
+        {
+            "id_item": 641992, 
+            "group": "1", 
+            "id": 12, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 682418, 
+            "group": "1", 
+            "id": 13, 
+            "name": "For\u00eat class\u00e9e de Timb\u00e9ri"
+        }, 
+        {
+            "id_item": 682425, 
+            "group": "1", 
+            "id": 14, 
+            "name": "R\u00e9serve de chasse et foresti\u00e8re de Boubanjidda"
+        }, 
+        {
+            "id_item": 682430, 
+            "group": "1", 
+            "id": 15, 
+            "name": "R\u00e9serve de chasse et foresti\u00e8re du Faro"
+        }, 
+        {
+            "id_item": 641984, 
+            "group": "1", 
+            "id": 16, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 682435, 
+            "group": "1", 
+            "id": 17, 
+            "name": "R\u00e9serve de chasse et foresti\u00e8re de la B\u00e9nou\u00e9"
+        }, 
+        {
+            "id_item": 641988, 
+            "group": "1", 
+            "id": 18, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 682440, 
+            "group": "1", 
+            "id": 19, 
+            "name": "For\u00eat class\u00e9e de Yamba-B\u00e9r\u00e9t\u00e9"
+        }, 
+        {
+            "id_item": 703049, 
+            "group": "2", 
+            "id": 20, 
+            "name": "Douala"
+        }, 
+        {
+            "id_item": 703052, 
+            "group": "1", 
+            "id": 21, 
+            "name": "Douala"
+        }, 
+        {
+            "id_item": 682445, 
+            "group": "1", 
+            "id": 22, 
+            "name": "R\u00e9serve foresti\u00e8re de Kalfou"
+        }, 
+        {
+            "id_item": 642000, 
+            "group": "1", 
+            "id": 23, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 631011, 
+            "group": "0", 
+            "id": 24, 
+            "name": "Carte de reconaissance au 1:500 000e, carte des colonies de l'A.O.F. : Kandi (Dahomey, Haute-Volta-Togo), 1926, 31 N.W."
+        }, 
+        {
+            "id_item": 682455, 
+            "group": "1", 
+            "id": 25, 
+            "name": "R\u00e9serve de chasse et foresti\u00e8re de Ouaza"
+        }, 
+        {
+            "id_item": 631000, 
+            "group": "0", 
+            "id": 26, 
+            "name": "Carte a\u00e9ronautique d'ATAR, Afrique de l'Ouest Fran\u00e7aise \u00e0 Tindouf, Algerie au 1:1 000 000e, 1951, FC 62"
+        }, 
+        {
+            "id_item": 631001, 
+            "group": "0", 
+            "id": 27, 
+            "name": "Croquis provisoire de l'A.E.F.-Cameroun au 1:1 000 000e : Garoua (Cameroun), 1955, N\u00b0 785a"
+        }, 
+        {
+            "id_item": 631002, 
+            "group": "0", 
+            "id": 28, 
+            "name": "Croquis provisoire de l'A.E.F.-Cameroun au 1:1 000 000e : Douala (Cameroun), 1951, N\u00b0 814a"
+        }, 
+        {
+            "id_item": 631003, 
+            "group": "0", 
+            "id": 29, 
+            "name": "Carte internationale du monde au 1:1 000 000e : Tibesti Est, 1963, NF 34,  n\u00b02569"
+        }, 
+        {
+            "id_item": 631004, 
+            "group": "0", 
+            "id": 30, 
+            "name": "Carte de l'Afrique au 1:1 000 000e : Tibesti Ouest, Djado, 1961, NF 33, n\u00b02570"
+        }, 
+        {
+            "id_item": 682461, 
+            "group": "1", 
+            "id": 31, 
+            "name": "For\u00eat class\u00e9e de Djoli-K\u00e9ra"
+        }, 
+        {
+            "id_item": 631006, 
+            "group": "0", 
+            "id": 32, 
+            "name": "Carte internationale du monde au 1:1 000 000e : Ab\u00e9ch\u00e9, 1965, ND 34,  n\u00b02691"
+        }, 
+        {
+            "id_item": 631007, 
+            "group": "0", 
+            "id": 33, 
+            "name": "Carte de l'Afrique au 1:1 000 000e : Lac Tchad, Fort Lamy, 1960, ND 33, n\u00b02692"
+        }, 
+        {
+            "id_item": 631008, 
+            "group": "0", 
+            "id": 34, 
+            "name": "Carte de l'Afrique de l'Ouest au 1:500 000e : Abidjan (Republique de Cote d'Ivoire), 1965, ND 30 - SO, n\u00b02043"
+        }, 
+        {
+            "id_item": 631009, 
+            "group": "0", 
+            "id": 35, 
+            "name": "Carte de l'Afrique de l'Ouest au 1:500 000e : Bouak\u00e9 (R\u00e9publique de C\u00f4te d'Ivoire), 1961, NB 30 - NO"
+        }, 
+        {
+            "id_item": 631010, 
+            "group": "0", 
+            "id": 36, 
+            "name": "Carte de l'A.O.F. au 1:500 000e : Gaya (Dahomey, Niger), 1957, NC 31 - NE"
+        }, 
+        {
+            "id_item": 682467, 
+            "group": "1", 
+            "id": 37, 
+            "name": "R\u00e9serve de faune de Manda"
+        }, 
+        {
+            "id_item": 631012, 
+            "group": "0", 
+            "id": 38, 
+            "name": "Carte de l'A.O.F. au 1:500 000e - Katiola (Haute-Volta, Cote d'Ivoire), 1957, NC 30 - SO"
+        }, 
+        {
+            "id_item": 631013, 
+            "group": "0", 
+            "id": 39, 
+            "name": "Carte de reconaissance au 1:500 000e : Porto-Novo (Dahomey - Togo), 1926, B 31 N.W."
+        }, 
+        {
+            "id_item": 631014, 
+            "group": "0", 
+            "id": 40, 
+            "name": "Carte de l'A.O.F. au 1:500 000e : Parakou (Dahomey, Togo), 1957, NC 31 - SO"
+        }, 
+        {
+            "id_item": 631015, 
+            "group": "0", 
+            "id": 41, 
+            "name": "Carte de l'Afrique Centrale au 1:200 000e : L\u00e9r\u00e9 (Tchad, Cameroun), 1959, NC 33 IX"
+        }, 
+        {
+            "id_item": 641996, 
+            "group": "1", 
+            "id": 42, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641522, 
+            "group": "1", 
+            "id": 43, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641525, 
+            "group": "1", 
+            "id": 44, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641528, 
+            "group": "1", 
+            "id": 45, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641531, 
+            "group": "1", 
+            "id": 46, 
+            "name": "Emprise de la carte"
+        }, 
+        {
+            "id_item": 641534, 
+            "group": "1", 
+            "id": 47, 
+            "name": "Emprise de la carte"
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "motivation": "", 
+            "target": 30, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 1, 
+            "motivation": "", 
+            "target": 9, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 2, 
+            "motivation": "", 
+            "target": 32, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 3, 
+            "motivation": "", 
+            "target": 33, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "", 
+            "target": 43, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "", 
+            "target": 8, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 4, 
+            "motivation": "", 
+            "target": 11, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 5, 
+            "motivation": "", 
+            "target": 34, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 6, 
+            "motivation": "", 
+            "target": 35, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 7, 
+            "motivation": "", 
+            "target": 36, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 17, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 19, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 25, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 22, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 13, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 14, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 31, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 10, 
+            "motivation": "", 
+            "target": 15, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 12, 
+            "motivation": "", 
+            "target": 39, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 13, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 14, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 15, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 16, 
+            "motivation": "", 
+            "target": 24, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 17, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 18, 
+            "motivation": "", 
+            "target": 38, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 19, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 20, 
+            "motivation": "", 
+            "target": 21, 
+            "weight": 3.0
+        }, 
+        {
+            "source": 21, 
+            "motivation": "", 
+            "target": 28, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 22, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 23, 
+            "motivation": "", 
+            "target": 41, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 25, 
+            "motivation": "", 
+            "target": 27, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 26, 
+            "motivation": "", 
+            "target": 44, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "", 
+            "target": 37, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "", 
+            "target": 45, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 27, 
+            "motivation": "", 
+            "target": 31, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 28, 
+            "motivation": "", 
+            "target": 46, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 29, 
+            "motivation": "", 
+            "target": 47, 
+            "weight": 1.0
+        }, 
+        {
+            "source": 40, 
+            "motivation": "", 
+            "target": 42, 
+            "weight": 1.0
+        }
+    ]
+}
