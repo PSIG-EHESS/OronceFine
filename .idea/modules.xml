@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OronceFine.iml" filepath="$PROJECT_DIR$/.idea/OronceFine.iml" />
+      <module fileurl="file://E:/data/PTM/inpi/.idea/inpi.iml" filepath="E:/data/PTM/inpi/.idea/inpi.iml" />
     </modules>
   </component>
 </project>

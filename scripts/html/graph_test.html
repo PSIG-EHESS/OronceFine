@@ -22,6 +22,7 @@ fill:#555;
 <body>
 <div id="container"></div>
 <script src="http://d3js.org/d3.v2.min.js?2.9.3"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 var width = 1200,
     height = 900
@@ -33,13 +34,15 @@ var svg = d3.select("body").append("svg")
     svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
   })).append("g");
 
+var color = d3.scaleOrdinal(d3.schemeCategory20);
+  
 var force = d3.layout.force()
     .gravity(.05)
     .distance(100)
     .charge(-100)
     .size([width, height]);
 
-d3.json("graph_annotations_omeka-s.json", function(json) {
+d3.json("graph_annotations_omeka-s_test.json", function(json) {
   force
       .nodes(json.nodes)
       .links(json.links)
@@ -54,9 +57,11 @@ d3.json("graph_annotations_omeka-s.json", function(json) {
   var node = svg.selectAll(".node")
       .data(json.nodes)
     .enter().append("g")
-	.style("fill", function (d) { return '#ff7711'; })
+	.attr("fill", function(d) { return color(d.group); })
       .attr("class", "node")
       .call(force.drag);
+	  
+	  //.style("fill", function (d) { return '#ff7711'; })
 	  
 	var nodes = svg.selectAll("circle.node")
 	.data(force.nodes())

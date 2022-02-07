@@ -2,15 +2,11 @@
 # coding: utf8
 
 import json
-import io
-import requests
 import httplib2
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib
-#matplotlib.use('Agg')
 import shapefile
 from pygeoif import geometry
+import math
 
 from networkx.readwrite import json_graph
 
@@ -112,13 +108,22 @@ def create_shapefile(dir_out, name):
 
 _http = httplib2.Http()
 
-nb_pages = 190
-nb_item_per_page = 1500
-nb_annot = 1353
+nb_item_per_page = 25
+nb_annot = 6577
+nb_last_items = 6577 % 25
+
+nb_pages_max = int(math.ceil(nb_annot / nb_item_per_page)) + 1
+
+print 'pages max = ' + str(nb_pages_max)
+print 'reste dernière page = ' + str(nb_last_items)
 
 # URL Omeka-s API
-base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
+#682391
+
+#base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
 #base_url = "http://psig.huma-num.fr/omeka-s/api/annotations/634695"
+base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
+base_url_pages = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)+"&page="
 base_url_items = "http://psig.huma-num.fr/omeka-s/api/items/"
 
 G = nx.Graph()
@@ -126,11 +131,22 @@ G = nx.Graph()
 dir = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\'
 dir_out = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\shp\\'
 
-for page in range(1):
+# Pour écrire dans un fichier Shapefile
+
+w_points = create_shapefile(dir_out, 'shape_all_geom_omeka_points')
+w_lines = create_shapefile(dir_out, 'shape_all_geom_omeka_lines')
+w_polygons = create_shapefile(dir_out, 'shape_all_geom_omeka_polygons')
+w_bbox = create_shapefile(dir_out, 'shape_all_geom_omeka_bbox')
+w_centroid = create_shapefile(dir_out, 'shape_all_geom_omeka_centroid')
+
+for iter_page in range(1, nb_pages_max+1):
+
+    base_url_pages_num = base_url_pages + str(iter_page)
 
     #iter_page = page + 1
 
-    iter_base_url = base_url
+    #iter_base_url = base_url
+    iter_base_url = base_url_pages_num
 
     x = request_api(iter_base_url)
 
@@ -139,15 +155,7 @@ for page in range(1):
         json.dump(x,
                   f, indent=4, )
 
-    # Pour écrire dans un fichier Shapefile
-
-    w_points = create_shapefile(dir_out, 'shape_all_geom_omeka_points')
-    w_lines = create_shapefile(dir_out, 'shape_all_geom_omeka_lines')
-    w_polygons = create_shapefile(dir_out, 'shape_all_geom_omeka_polygons')
-    w_bbox = create_shapefile(dir_out, 'shape_all_geom_omeka_bbox')
-    w_centroid = create_shapefile(dir_out, 'shape_all_geom_omeka_centroid')
-
-    print w_polygons
+    #print w_polygons
 
     # w_lines = shapefile.Writer(dir_out + 'shape_all_geom_omeka_lines' + '.shp')
     # w_lines.field('id', 'N')
@@ -193,13 +201,19 @@ for page in range(1):
     # w_centroid.field('url_media_jpg', 'C', size=255)
     # w_centroid.field('date', 'C')
 
+    # change range for the last page
+    if iter_page == nb_pages_max:
+        print 'last page !!'
+        nb_item_per_page = nb_last_items
+
     i = 0
     cpt_points = 0
     cpt_lines = 0
     cpt_poly = 0
     cpt_bbox = 0
     cpt_centroid = 0
-    for item in range(0, nb_annot):
+    for item in range(0, nb_item_per_page):
+        print 'page = ' + str(iter_page)
         print 'id = ' + str(i)
         #print 'keys top ' + str(x[item])
         print 'annotation #' + str(x[item]['o:id'])
@@ -224,12 +238,11 @@ for page in range(1):
                     #get type value_resource_name
                     type_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['value_resource_name']
                     #get url item
-                    url_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['@id' \
-                                                                             '']
+                    url_item = x[item]['oa:hasTarget'][0]['oa:hasSource'][0]['@id']
                     #get item via API
                     x_item = request_api(base_url_items+str(id_item))
 
-                    # get collection here TODO
+                    # get collection here
                     if len(x_item['o:item_set']) > 0 and 'o:id' in x_item['o:item_set'][0]:
                         collection_item = x_item['o:item_set'][0]['o:id']
 
@@ -317,26 +330,26 @@ for page in range(1):
 
         i += 1
 
-    w_points.close()
-    w_lines.close()
-    w_polygons.close()
-    w_centroid.close()
+w_points.close()
+w_lines.close()
+w_polygons.close()
+w_centroid.close()
 
-    print 'nb records ' + str(i)
-    print 'nb records points ' + str(cpt_points)
-    print 'nb records lines ' + str(cpt_lines)
-    print 'nb records polys ' + str(cpt_poly)
-    print 'nb records bbox ' + str(cpt_bbox)
-    print 'nb records centroid ' + str(cpt_centroid)
+print 'nb records ' + str(i)
+print 'nb records points ' + str(cpt_points)
+print 'nb records lines ' + str(cpt_lines)
+print 'nb records polys ' + str(cpt_poly)
+print 'nb records bbox ' + str(cpt_bbox)
+print 'nb records centroid ' + str(cpt_centroid)
 
-        # print 'searching for POINT'
-        # results_searching_points = pretty_search(x[item], 'POINT', False)
-        # print results_searching_points
-        #
-        # print 'searching for LINESTRING'
-        # results_searching_points = pretty_search(x[item], 'LINESTRING', False)
-        # print results_searching_points
-        #
-        # print 'searching for POLYGON'
-        # results_searching_points = pretty_search(x[item], 'POLYGON', False)
-        # print results_searching_points
+# print 'searching for POINT'
+# results_searching_points = pretty_search(x[item], 'POINT', False)
+# print results_searching_points
+#
+# print 'searching for LINESTRING'
+# results_searching_points = pretty_search(x[item], 'LINESTRING', False)
+# print results_searching_points
+#
+# print 'searching for POLYGON'
+# results_searching_points = pretty_search(x[item], 'POLYGON', False)
+# print results_searching_points

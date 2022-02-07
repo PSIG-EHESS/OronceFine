@@ -3,12 +3,16 @@
 
 import json
 import io
-import requests
 import httplib2
 import networkx as nx
+import math
 import matplotlib.pyplot as plt
 import matplotlib
 #matplotlib.use('Agg')
+
+from py2neo import Graph
+from py2neo import Node
+from py2neo import Relationship
 
 from networkx.readwrite import json_graph
 
@@ -51,9 +55,14 @@ def read_node(url):
         #print 'longueur title ' + str(len(x['dcterms:title']))
         #print 'longueur item_set ' + str(len(x['o:item_set']))
 
-        if len(x['dcterms:title']) > 0 and '@value' in x['dcterms:title'][0]:
-            name = x['dcterms:title'][0]['@value']
-            #print 'nom in fonction : ' + name
+        if 'dcterms:title' in x:
+            if len(x['dcterms:title']) > 0 and '@value' in x['dcterms:title'][0]:
+                name = x['dcterms:title'][0]['@value']
+                #print 'nom in fonction : ' + name
+        elif 'dcterms:description' in x:
+            if len(x['dcterms:description']) > 0 and '@value' in x['dcterms:description'][0]:
+                name = x['dcterms:description'][0]['@value']
+                #print 'nom in fonction : ' + name
         if len(x['o:item_set']) > 0 and 'o:id' in x['o:item_set'][0]:
             collection = x['o:item_set'][0]['o:id']
 
@@ -76,159 +85,208 @@ def add_link(id_node_source, name_node_source, collection_source, id_node_target
     G.nodes[id_node_target]['group'] = target_node_collection  # récupérer le nom de l'item éventuellement
     G.nodes[id_node_target]['color'] = target_node_collection  # récupérer le nom de l'item éventuellement
 
+def add_node_to_neo(name, id_item, group, color):
+    a = Node("Item", name=name, id_item=id_item, group=group, color=color)
+    tx.create(a)
+    return 0
 
+def add_link_to_neo(id_node_source, id_node_target, motivation, poids):
+    link = Relationship(id_node_source, motivation, id_node_target)
+    tx.create(link)
+    return 0
 
 ########### START HERE ###############
 
-
-
 _http = httplib2.Http()
 
-nb_pages = 190
-nb_item_per_page = 1500
-nb_annot = 1354
+nb_item_per_page = 200
+nb_annot = 8034
+nb_last_items = 8034 % 200
+
+nb_pages_max = int(math.ceil(nb_annot / nb_item_per_page)) + 1
+
+print 'pages max = ' + str(nb_pages_max)
+print 'reste dernière page = ' + str(nb_last_items)
 
 # URL Omeka-s API
 base_url = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)
+base_url_pages = "http://psig.huma-num.fr/omeka-s/api/annotations?per_page="+str(nb_item_per_page)+"&page="
 #base_url = "http://psig.huma-num.fr/omeka-s/api/annotations/634695"
 base_url_ok = "http://psig.huma-num.fr/omeka-s/api/items"
 
 G = nx.Graph()
 
+#neo4j graph uncomment for neo4j connection
+#graph = Graph(password="=y88AQ.u")
+#tx = graph.begin()
+#graph.run("MATCH (n) DETACH DELETE n")
+
 list_nodes = []
 
-#iter_page = page + 1
+for iter_page in range(1, nb_pages_max+1):
 
-iter_base_url = base_url
+    base_url_pages_num = base_url_pages + str(iter_page)
 
-print '____ querying ' + base_url
+    #iter_page = page + 1
+    #iter_base_url = base_url
+    iter_base_url = base_url_pages_num
 
-# Assemble the URL and query the web service
-#r = requests.get(base_url)#, params=payload)
-# prepared = r.prepare()
-# print prepared
+    print '____ querying ' + base_url_pages_num
 
-resp, content = _http.request(iter_base_url, "GET")#, body=data, headers=headers)
+    # Assemble the URL and query the web service
+    # r = requests.get(base_url)#, params=payload)
+    # prepared = r.prepare()
+    # print prepared
 
-#print '--resp--'
-#print resp
-#print '--content--'
-#print content
+    resp, content = _http.request(iter_base_url, "GET")#, body=data, headers=headers)
 
-x = json.loads(content)
+    #print '--resp--'
+    #print resp
+    #print '--content--'
+    #print content
 
-filename = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\export_annotaions_omeka-s.json'
-with open(filename, 'w') as f:
-    json.dump(x,
-              f, indent=4, )
+    x = json.loads(content)
 
-i = 0
-cpt_nodes = 0
-for item in range(0, nb_annot):
-    print '_____________________________'
-    this_item = x[item]
-    print 'id = ' + str(i)
-    print 'keys top ' + str(this_item.keys())
-    print 'annotation #' + str(this_item['o:id'])
-    id_annotation = this_item['o:id']
-    #print 'target : ' + str(x[item]['target'])
-    if 'oa:motivatedBy' in this_item:
-        motivation = this_item['oa:motivatedBy'][0]['@value']
-    else:
-        motivation = ''
-    print '         motivation = ' + str(motivation)
-    #print 'test 1 ' + str('oa:hasTarget' in this_item)
-    #print 'test 2 ' + str('oa:hasSource' in this_item['oa:hasTarget'][0])
-    if 'oa:hasTarget' not in this_item and 'oa:hasSource' not in this_item['oa:hasTarget'][0]:
-        #ni target et/ou ni source
-        continue
-    else:
-        this_item_target = this_item['oa:hasTarget']
-        if 'oa:hasSource' in this_item_target[0]:
-            print 'has Source and has Target'
-            this_item_target_source = this_item_target[0]['oa:hasSource']
-            id_node_source, name_node_source, collection_source = read_node(this_item_target_source[0]['@id'])
+    filename = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\export_annotations_omeka-s_p'+str(iter_page)+'.json'
+    with open(filename, 'w') as f:
+        json.dump(x, f, indent=4, )
+
+    #change range for the last page
+    if iter_page == nb_pages_max:
+        print 'last page !!'
+        nb_item_per_page = nb_last_items
+
+    i = 0
+    cpt_nodes = 0
+    for item in range(0, nb_item_per_page):
+        print '_____________________________'
+        this_item = x[item]
+        print 'page = ' + str(iter_page)
+        print 'id = ' + str(i)
+        print 'keys top ' + str(this_item.keys())
+        print 'annotation #' + str(this_item['o:id'])
+        id_annotation = this_item['o:id']
+        #print 'target : ' + str(x[item]['target'])
+        if 'oa:motivatedBy' in this_item:
+            motivation = this_item['oa:motivatedBy'][0]['@value']
         else:
-            'pass : source is not in target'
+            motivation = ''
+        print '         motivation = ' + str(motivation)
+        #print 'test 1 ' + str('oa:hasTarget' in this_item)
+        #print 'test 2 ' + str('oa:hasSource' in this_item['oa:hasTarget'][0])
+        if 'oa:hasTarget' not in this_item and 'oa:hasSource' not in this_item['oa:hasTarget'][0]:
+            #ni target et/ou ni source
             continue
-    print '         node name = ' + name_node_source
-    print '         collection = ' + str(collection_source)
-    #print '         node source = ' + str(x[item]['target']['source'])
-    print '                 node start in int from url = ' + str(id_node_source)
-    #G.add_node(node_source)
+        else:
+            this_item_target = this_item['oa:hasTarget']
+            if 'oa:hasSource' in this_item_target[0]:
+                print 'has Source and has Target'
+                this_item_target_source = this_item_target[0]['oa:hasSource']
+                id_node_source, name_node_source, collection_source = read_node(this_item_target_source[0]['@id'])
+            else:
+                'pass : source is not in target'
+                continue
+        print '         node name = ' + name_node_source
+        print '         collection = ' + str(collection_source)
+        #print '         node source = ' + str(x[item]['target']['source'])
+        print '                 node start in int from url = ' + str(id_node_source)
+        #G.add_node(node_source)
 
-    #Extract body case
-    if 'oa:hasBody' in x[item]:
-        print 'in body'
-        body = x[item]['oa:hasBody']
-        #print '             type ' + str(type(x[item]['body']))
-        #print '             body ' + str(x[item]['body'])
+        #Extract body case
+        if 'oa:hasBody' in x[item]:
+            print 'in body'
+            body = x[item]['oa:hasBody']
+            #print '             type ' + str(type(x[item]['body']))
+            #print '             body ' + str(x[item]['body'])
 
-        if isinstance(body, dict):
-            print '             value = ' + body['value']
+            if isinstance(body, dict):
+                print '             value = ' + body['value']
 
-        if isinstance(body, list):
-            print '     len body = ' + str(len(body))
+            if isinstance(body, list):
+                print '     len body = ' + str(len(body))
 
-            for nb in range(0, len(body)):
+                for nb in range(0, len(body)):
 
-                if '@id' in body[nb]:
-                    print '       connection exists (@id) !'
-                    value_url = body[nb]['@id']
-                    #print 'type ' + type(x[item]['body'][nb]['value'])
-                    print '                 value = ' + value_url
-                    id_node_target, target_node_name, target_node_collection = read_node(value_url)
-                    #print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
-                    print '                 name = ' + target_node_name#.encode("latin-1"))
+                    if '@id' in body[nb]:
+                        print '       connection exists (@id) !'
+                        value_url = body[nb]['@id']
+                        #print 'type ' + type(x[item]['body'][nb]['value'])
+                        print '                 value = ' + value_url
+                        id_node_target, target_node_name, target_node_collection = read_node(value_url)
+                        #print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
+                        print '                 name = ' + target_node_name#.encode("latin-1"))
 
-                    print '                 node end in int from url = ' + str(id_node_target)
-                    #G.add_node(node_target)
+                        print '                 node end in int from url = ' + str(id_node_target)
+                        #G.add_node(node_target)
 
-                    print '                 connect (@id) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
+                        print '                 connect (@id) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
 
-                    add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
-                             target_node_collection, motivation, 1.0)
+                        add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
+                                 target_node_collection, motivation, 1.0)
 
-                if 'rdf:value' in body[nb] and '@id' in body[nb]['rdf:value'][0]:
-                    print '       connection exists (rdf:value) !'
-                    value_url = body[nb]['rdf:value'][0]['@id']
-                    # print 'type ' + type(x[item]['body'][nb]['value'])
-                    print '                 value = ' + value_url
-                    id_node_target, target_node_name, target_node_collection = read_node(value_url)
-                    # print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
-                    print '                 name = ' + target_node_name  # .encode("latin-1"))
+                    if 'rdf:value' in body[nb] and '@id' in body[nb]['rdf:value'][0]:
+                        print '       connection exists (rdf:value) !'
+                        value_url = body[nb]['rdf:value'][0]['@id']
+                        # print 'type ' + type(x[item]['body'][nb]['value'])
+                        print '                 value = ' + value_url
+                        id_node_target, target_node_name, target_node_collection = read_node(value_url)
+                        # print '                 name = ' + str(unicode(target_node_name , errors='ignore'))
+                        print '                 name = ' + target_node_name  # .encode("latin-1"))
 
-                    print '                 node end in int from url = ' + str(id_node_target)
-                    # G.add_node(node_target)
+                        print '                 node end in int from url = ' + str(id_node_target)
+                        # G.add_node(node_target)
 
-                    print '                 connect (rdf:value) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
+                        print '                 connect (rdf:value) : ' + str(id_node_source) + ' -- ' + str(id_node_target)
 
-                    add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
-                             target_node_collection, motivation, 1.0)
+                        add_link(id_node_source, name_node_source, collection_source, id_node_target, target_node_name,
+                                 target_node_collection, motivation, 1.0)
 
-    i += 1
-    #End loop
+        i += 1
+        #End loop
 
 #Extract nodes and links for json from Graph
 cpt_nodes = 0
 nodes = []
+tab_nodes_neo = []
 for i in G.nodes():
     G.nodes[i]['id'] = cpt_nodes
     nodes.append({'id': G.nodes[i]['id'], 'id_item': G.nodes[i]['id_item'], 'name': G.nodes[i]['name'], 'group': str(G.nodes[i]['group'])})
+
+    #neo
+    #node_neo = Node("Item", name=G.nodes[i]['name'], id_item=G.nodes[i]['id_item'], group=G.nodes[i]['group'], color=G.nodes[i]['group'])
+    #tab_nodes_neo.append(node_neo)
+    #tx.create(node_neo)
+
     cpt_nodes += 1
 
 print nodes
+#tx.commit()
 
 #nodes = [{'id': G.nodes[i]['id'], 'name': str(G.nodes[i]['name']), 'group': str(G.nodes[i]['group'])} for i in G.nodes()]
 links = [{'source': G.nodes[u[0]]['id'], 'target': G.nodes[u[1]]['id'],
       'motivation':G.edges[u]['motivation'], 'weight':G.edges[u]['weight']} for u in G.edges()]
 
-print links
+#neo
+#tx = graph.begin()
+# for link in links:
+#     nodea = tab_nodes_neo[link['source']]
+#     print nodea
+#     nodeb = tab_nodes_neo[link['target']]
+#     print nodeb
+#     motivation = link['motivation']
+#     print motivation
+#     link = Relationship(nodea, motivation, nodeb)
+#     tx.create(link)
+#
+# print links
+# tx.commit()
 
 print 'export graph as json'
-filename = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\graph_annotations_omeka-s.json'
+filename = 'C:\\Users\\Eric\\PycharmProjects\\OronceFine\\scripts\\out\\graph_annotations_omeka-s_test.json'
 #with open(filename, 'w', encoding='utf8') as f:
 with io.open(filename, 'wb') as f:
     json.dump({'nodes': nodes, 'links': links},
               f, indent=4, )
 print 'ok'
+
+#commit graph on neo4j
